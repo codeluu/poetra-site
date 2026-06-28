@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && sanity build dist/studio",
+    "build": "astro build && rm -rf dist/studio && printf 'y\\n' | sanity build dist/studio",
     "preview": "astro preview",
     "astro": "astro",
     "dev:studio": "sanity dev"
