@@ -2,7 +2,36 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import DailyQuote from '../components/DailyQuote.astro';
 import { formatDate } from '../lib/format';
-import { sanityClient, type ContentSummary } from '../lib/sanity';
+import {
+  sanityClient,
+  type ContentSummary,
+  type HomePageSettings,
+  type HomeWorkCard,
+} from '../lib/sanity';
+
+/* Editable homepage settings — singleton "Ana Sayfa" in Sanity Studio.
+   Every field is optional; the fallbacks below keep the page identical to
+   its current design when the document (or any field) is missing. */
+const home = await sanityClient.fetch<HomePageSettings | null>(`
+  *[_type == "homePage" && !(_id in path("drafts.**"))][0]{
+    heroKicker,
+    heroTitle,
+    heroTitleEmphasis,
+    heroLede,
+    dailyQuotes[]{ text, source, date },
+    "featured": [
+      ...coalesce(featuredPoems[]->{
+        _id, _type, title, slug, originalLanguage, publishedAt
+      }, []),
+      ...coalesce(featuredWritings[]->{
+        _id, _type, title, slug, publishedAt
+      }, [])
+    ][defined(slug.current)],
+    shelfHeading,
+    works[]{ title, kind, note, url },
+    seo
+  }
+`);
 
 const latest = await sanityClient.fetch<ContentSummary[]>(`
   *[
@@ -41,33 +70,57 @@ const typeLabels: Record<string, string> = {
   mediaEntry: 'Medya',
 };
 
-/* Static gallery items (D3, typographic covers) — no book/album schema yet.
-   Book cards are presentational ("Detaylar yakında") until detail pages exist;
-   they must not look like clickable links. */
-const works = [
+/* ---- Hero (fallbacks preserve the current copy) ---- */
+const heroKicker = home?.heroKicker || 'Poetra — kişisel bir edebiyat arşivi';
+const heroLede =
+  home?.heroLede ||
+  'Şiirler, denemeler, kitaplar ve Muntra Versio’nun müziği — hepsi aynı çatı altında. Acele etmeden okumak için.';
+
+/* Split the editable title around the emphasis phrase so the <em> accent
+   survives Studio edits. Falls back to the current hardcoded line. */
+let heroTitle = { pre: 'Kelimeler için ', em: 'sakin', post: ' bir mekân.' };
+if (home?.heroTitle) {
+  const title = home.heroTitle;
+  const em = home.heroTitleEmphasis?.trim();
+  const at = em ? title.indexOf(em) : -1;
+  heroTitle =
+    em && at >= 0
+      ? { pre: title.slice(0, at), em, post: title.slice(at + em.length) }
+      : { pre: title, em: '', post: '' };
+}
+
+/* ---- Arşivden: editor-picked items, else latest ---- */
+const archiveItems = home?.featured?.length
+  ? [...home.featured].sort((a, b) =>
+      (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''),
+    )
+  : latest;
+
+/* ---- Shelf (books/music) ---- */
+const defaultWorks: HomeWorkCard[] = [
   { title: 'Müzisyenin Suç Aleti', kind: 'Kitap', note: 'Detaylar yakında' },
   { title: 'Aykırı Şiirler', kind: 'Kitap', note: 'Detaylar yakında' },
   {
     title: 'Muntra Versio',
     kind: 'Müzik',
     note: 'YouTube ↗',
-    href: 'https://www.youtube.com/@MuntraVersio',
+    url: 'https://www.youtube.com/@MuntraVersio',
   },
 ];
+const shelfHeading = home?.shelfHeading || 'Kitaplar · Müzik';
+const workItems = home?.works?.length ? home.works : defaultWorks;
+
+const pageTitle = home?.seo?.title ?? 'Poetra';
+const pageDescription =
+  home?.seo?.description ?? 'Poetra.art şiir, yazı, müzik ve sorgular arşivi.';
 ---
 
-<BaseLayout
-  title="Poetra"
-  description="Poetra.art şiir, yazı, müzik ve sorgular arşivi."
->
+<BaseLayout title={pageTitle} description={pageDescription}>
   <section class="hero">
     <div class="reveal">
-      <p class="kicker">Poetra — kişisel bir edebiyat arşivi</p>
-      <h1>Kelimeler için <em>sakin</em> bir mekân.</h1>
-      <p class="lede">
-        Şiirler, denemeler, kitaplar ve Muntra Versio’nun müziği — hepsi aynı
-        çatı altında. Acele etmeden okumak için.
-      </p>
+      <p class="kicker">{heroKicker}</p>
+      <h1>{heroTitle.pre}{heroTitle.em && <em>{heroTitle.em}</em>}{heroTitle.post}</h1>
+      <p class="lede">{heroLede}</p>
       <div class="hero-stats">
         <div class="stat">
           <span class="stat-num">{counts.poems}</span>
@@ -85,34 +138,34 @@ const works = [
     </div>
   </section>
 
-  <DailyQuote />
+  <DailyQuote quotes={home?.dailyQuotes} />
 
   <section class="section">
     <div class="shelf-head reveal">
-      <h2 class="kicker">Kitaplar · Müzik</h2>
+      <h2 class="kicker">{shelfHeading}</h2>
       <a class="media-link" href="/media">Tüm medya</a>
     </div>
     <div class="shelf-grid">
       {
-        works.map((work) =>
-          work.href ? (
-            <a class="work-card reveal" href={work.href} rel="noreferrer">
+        workItems.map((work) =>
+          work.url ? (
+            <a class="work-card reveal" href={work.url} rel="noreferrer">
               <div class:list={['work-cover', { 'work-cover-album': work.kind === 'Müzik' }]}>
                 <span class="work-cover-title">{work.title}</span>
               </div>
               <div class="work-kunye">
-                <span>{work.kind}</span>
-                <span>{work.note}</span>
+                {work.kind && <span>{work.kind}</span>}
+                {work.note && <span>{work.note}</span>}
               </div>
             </a>
           ) : (
             <article class="work-card reveal">
-              <div class="work-cover">
+              <div class:list={['work-cover', { 'work-cover-album': work.kind === 'Müzik' }]}>
                 <span class="work-cover-title">{work.title}</span>
               </div>
               <div class="work-kunye">
-                <span>{work.kind}</span>
-                <span>{work.note}</span>
+                {work.kind && <span>{work.kind}</span>}
+                {work.note && <span>{work.note}</span>}
               </div>
             </article>
           ),
@@ -128,7 +181,7 @@ const works = [
     </div>
     <ol class="archive-list reveal">
       {
-        latest.map((item) => (
+        archiveItems.map((item) => (
           <li class="archive-row">
             <a href={hrefFor(item)}>
               <span class="archive-type">{typeLabels[item._type] ?? item._type}</span>

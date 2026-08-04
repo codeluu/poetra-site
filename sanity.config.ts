@@ -12,7 +12,24 @@ export default defineConfig({
   basePath: '/studio',
 
   plugins: [
-    structureTool(),
+    structureTool({
+      structure: (S) =>
+        S.list()
+          .title('İçerik')
+          .items([
+            // Pinned singleton: one fixed document for homepage settings.
+            S.listItem()
+              .title('Home Page / Ana Sayfa')
+              .id('homePage')
+              .child(
+                S.document().schemaType('homePage').documentId('homePage'),
+              ),
+            S.divider(),
+            ...S.documentTypeListItems().filter(
+              (item) => item.getId() !== 'homePage',
+            ),
+          ]),
+    }),
     visionTool(),
   ],
 

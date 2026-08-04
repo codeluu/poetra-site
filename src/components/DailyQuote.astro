@@ -1,11 +1,18 @@
 ---
 /**
- * DailyQuote — slice 1: static/mock only (handoff §9).
- * Authored in-component; picked deterministically by day at build time.
- * No Sanity schema, no fetch, no client persistence. A `dailyQuote`
- * document type + real rotation is a later slice.
+ * DailyQuote — shows one quote per day, picked deterministically at build
+ * time. Quotes come from the Sanity "Ana Sayfa" (homePage) settings when
+ * provided; otherwise the built-in fallback pool below keeps the block
+ * rendering (site must build even with empty settings). No persistence,
+ * no client rotation.
  */
-const quotes: { text: string; source: string; date: string }[] = [
+import type { DailyQuoteItem } from '../lib/sanity';
+
+type Props = {
+  quotes?: DailyQuoteItem[];
+};
+
+const fallbackQuotes: DailyQuoteItem[] = [
   {
     text: 'Kelimeler sustuğunda,\nmürekkep konuşmayı sürdürür.',
     source: 'Defterden',
@@ -23,14 +30,17 @@ const quotes: { text: string; source: string; date: string }[] = [
   },
 ];
 
-const dayIndex = Math.floor(Date.now() / 86_400_000) % quotes.length;
-const quote = quotes[dayIndex];
+const { quotes } = Astro.props;
+const pool = quotes?.length ? quotes : fallbackQuotes;
+const dayIndex = Math.floor(Date.now() / 86_400_000) % pool.length;
+const quote = pool[dayIndex];
+const attribution = [quote.source, quote.date].filter(Boolean).join(' · ');
 ---
 
 <section class="section">
   <figure class="daily-quote reveal">
     <p class="kicker">Günün Dizesi</p>
     <blockquote class="daily-quote-text">{quote.text}</blockquote>
-    <figcaption class="daily-quote-source">{quote.source} · {quote.date}</figcaption>
+    {attribution && <figcaption class="daily-quote-source">{attribution}</figcaption>}
   </figure>
 </section>

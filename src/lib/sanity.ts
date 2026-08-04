@@ -42,3 +42,31 @@ export type ContentDocument = ContentSummary & {
   body?: PortableTextBlock[];
   pageType?: string;
 };
+
+export type DailyQuoteItem = {
+  text: string;
+  source?: string;
+  date?: string;
+};
+
+export type HomeWorkCard = {
+  title: string;
+  kind?: string;
+  note?: string;
+  url?: string;
+};
+
+export type HomePageSettings = {
+  heroKicker?: string;
+  heroTitle?: string;
+  heroTitleEmphasis?: string;
+  heroLede?: string;
+  dailyQuotes?: DailyQuoteItem[];
+  featured?: ContentSummary[];
+  shelfHeading?: string;
+  works?: HomeWorkCard[];
+  seo?: {
+    title?: string;
+    description?: string;
+  };
+};
