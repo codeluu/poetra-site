@@ -1,0 +1,36 @@
+---
+/**
+ * DailyQuote — slice 1: static/mock only (handoff §9).
+ * Authored in-component; picked deterministically by day at build time.
+ * No Sanity schema, no fetch, no client persistence. A `dailyQuote`
+ * document type + real rotation is a later slice.
+ */
+const quotes: { text: string; source: string; date: string }[] = [
+  {
+    text: 'Kelimeler sustuğunda,\nmürekkep konuşmayı sürdürür.',
+    source: 'Defterden',
+    date: '2025',
+  },
+  {
+    text: 'Her şiir, görünmeyene\naçılan dar bir kapıdır.',
+    source: 'Defterden',
+    date: '2024',
+  },
+  {
+    text: 'Kâğıt sabırlıdır;\nacele eden benim.',
+    source: 'Defterden',
+    date: '2025',
+  },
+];
+
+const dayIndex = Math.floor(Date.now() / 86_400_000) % quotes.length;
+const quote = quotes[dayIndex];
+---
+
+<section class="section">
+  <figure class="daily-quote reveal">
+    <p class="kicker">Günün Dizesi</p>
+    <blockquote class="daily-quote-text">{quote.text}</blockquote>
+    <figcaption class="daily-quote-source">{quote.source} · {quote.date}</figcaption>
+  </figure>
+</section>

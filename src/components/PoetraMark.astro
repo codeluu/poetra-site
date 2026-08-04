@@ -1,0 +1,29 @@
+---
+/**
+ * Poetra brand mark — renders the refined decided Ink-P symbol
+ * (public/brand/poetra-symbol-transparent.png, transparent background,
+ * harmonizes with the paper tones; no mix-blend-mode needed).
+ *
+ * Visual QA 2026-07-05: the hand-drawn paths in public/poetra-mark.svg are
+ * a crude approximation of the decided mark and must NOT be rendered as the
+ * visible logo. A traced vector candidate (public/poetra-mark-candidate.svg)
+ * is pending review; only after approval may it replace this raster.
+ */
+type Props = {
+  width?: number;
+  class?: string;
+};
+
+const RATIO = 470 / 700; // intrinsic dimensions of the symbol PNG
+
+const { width = 26, class: className } = Astro.props;
+const height = Math.round(width / RATIO);
+---
+
+<img
+  class={className}
+  src="/brand/poetra-symbol-transparent.png"
+  width={width}
+  height={height}
+  alt=""
+/>

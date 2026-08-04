@@ -1,0 +1,60 @@
+---
+/**
+ * PoemArticle — poem detail composition (D2 sheet + one seal + D3 künye).
+ * Craft-device budget on this screen (handoff §1/§5): the sheet
+ * (offset shadow + 0.35° tilt) and the vermilion seal — nothing else.
+ * The poem body is static: never revealed, never animated (§6).
+ */
+import { formatDate, languageLabel } from '../lib/format';
+import type { ContentDocument } from '../lib/sanity';
+
+type Props = {
+  poem: ContentDocument;
+  bodyHtml: string;
+};
+
+const { poem, bodyHtml } = Astro.props;
+const contentLang = poem.originalLanguage === 'en' ? 'en' : 'tr';
+const tags = poem.tags ?? [];
+---
+
+<article class="poem-page">
+  <div class="meta poem-crumb">
+    <a href="/poetry">Şiir Arşivi</a>
+  </div>
+  <h1 class="poem-title">{poem.title}</h1>
+
+  <div class="poem-sheet">
+    <div class="poem-body" lang={contentLang} set:html={bodyHtml} />
+    <div class="poem-seal" aria-hidden="true">
+      <span class="poem-seal-glyph">P</span>
+    </div>
+  </div>
+
+  <dl class="kunye">
+    <div>
+      <dt>Başlık</dt>
+      <dd>{poem.title}</dd>
+    </div>
+    {
+      poem.publishedAt && (
+        <div>
+          <dt>Tarih</dt>
+          <dd>{formatDate(poem.publishedAt)}</dd>
+        </div>
+      )
+    }
+    <div>
+      <dt>Dil</dt>
+      <dd>{languageLabel(poem.originalLanguage)}</dd>
+    </div>
+    {
+      tags.length > 0 && (
+        <div>
+          <dt>Etiketler</dt>
+          <dd>{tags.join(', ')}</dd>
+        </div>
+      )
+    }
+  </dl>
+</article>

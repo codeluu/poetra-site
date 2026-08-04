@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDate, formatLabel, languageLabel } from '../../lib/format';
+import { portableTextToHtml } from '../../lib/portableText';
+import { sanityClient, type ContentDocument } from '../../lib/sanity';
+
+export async function getStaticPaths() {
+  const writings = await sanityClient.fetch<ContentDocument[]>(`
+    *[
+      _type == "writing" &&
+      !(_id in path("drafts.**")) &&
+      defined(slug.current)
+    ]|order(publishedAt desc){
+      _id,
+      title,
+      slug,
+      language,
+      publishedAt,
+      format,
+      body,
+      seo,
+      "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...220])
+    }
+  `);
+
+  return writings.map((writing) => ({
+    params: { slug: writing.slug.current },
+    props: { writing },
+  }));
+}
+
+const { writing } = Astro.props;
+const bodyHtml = portableTextToHtml(writing.body);
+const contentLang = writing.language === 'en' ? 'en' : 'tr';
+const description =
+  writing.seo?.description ||
+  writing.excerpt ||
+  `${writing.title} — Poetra yazılar arşivi.`;
+---
+
+<BaseLayout title={writing.seo?.title ?? writing.title} description={description}>
+  <article class="article">
+    <div class="meta">
+      <a href="/writings">Yazılar</a>
+      {formatLabel(writing.format) && <span>{formatLabel(writing.format)}</span>}
+      {languageLabel(writing.language) && <span>{languageLabel(writing.language)}</span>}
+      {writing.publishedAt && <span>{formatDate(writing.publishedAt)}</span>}
+    </div>
+    <h1>{writing.title}</h1>
+    {
+      bodyHtml ? (
+        <div class="portable" lang={contentLang} set:html={bodyHtml} />
+      ) : (
+        <p class="empty">Bu yazının tam metni yakında burada olacak.</p>
+      )
+    }
+  </article>
+</BaseLayout>

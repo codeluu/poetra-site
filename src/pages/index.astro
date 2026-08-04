@@ -1,17 +1,143 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DailyQuote from '../components/DailyQuote.astro';
+import { formatDate } from '../lib/format';
+import { sanityClient, type ContentSummary } from '../lib/sanity';
 
+const latest = await sanityClient.fetch<ContentSummary[]>(`
+  *[
+    _type in ["poetry", "writing", "mediaEntry"] &&
+    !(_id in path("drafts.**")) &&
+    defined(slug.current)
+  ]|order(publishedAt desc)[0...6]{
+    _id,
+    _type,
+    title,
+    slug,
+    language,
+    originalLanguage,
+    publishedAt
+  }
+`);
+
+const counts = await sanityClient.fetch<{ poems: number; writings: number; media: number }>(`
+  {
+    "poems": count(*[_type == "poetry" && !(_id in path("drafts.**")) && defined(slug.current)]),
+    "writings": count(*[_type == "writing" && !(_id in path("drafts.**")) && defined(slug.current)]),
+    "media": count(*[_type == "mediaEntry" && !(_id in path("drafts.**")) && defined(slug.current)])
+  }
+`);
+
+function hrefFor(item: ContentSummary) {
+  if (item._type === 'poetry') return `/poetry/${item.originalLanguage}/${item.slug.current}`;
+  if (item._type === 'writing') return `/writings/${item.slug.current}`;
+  if (item._type === 'mediaEntry') return '/media';
+  return '/';
+}
+
+const typeLabels: Record<string, string> = {
+  poetry: 'Şiir',
+  writing: 'Yazı',
+  mediaEntry: 'Medya',
+};
+
+/* Static gallery items (D3, typographic covers) — no book/album schema yet.
+   Book cards are presentational ("Detaylar yakında") until detail pages exist;
+   they must not look like clickable links. */
+const works = [
+  { title: 'Müzisyenin Suç Aleti', kind: 'Kitap', note: 'Detaylar yakında' },
+  { title: 'Aykırı Şiirler', kind: 'Kitap', note: 'Detaylar yakında' },
+  {
+    title: 'Muntra Versio',
+    kind: 'Müzik',
+    note: 'YouTube ↗',
+    href: 'https://www.youtube.com/@MuntraVersio',
+  },
+];
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout
+  title="Poetra"
+  description="Poetra.art şiir, yazı, müzik ve sorgular arşivi."
+>
+  <section class="hero">
+    <div class="reveal">
+      <p class="kicker">Poetra — kişisel bir edebiyat arşivi</p>
+      <h1>Kelimeler için <em>sakin</em> bir mekân.</h1>
+      <p class="lede">
+        Şiirler, denemeler, kitaplar ve Muntra Versio’nun müziği — hepsi aynı
+        çatı altında. Acele etmeden okumak için.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">{counts.poems}</span>
+          <span class="stat-label">Şiir</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">{counts.writings}</span>
+          <span class="stat-label">Yazı</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">{counts.media}</span>
+          <span class="stat-label">Medya</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <DailyQuote />
+
+  <section class="section">
+    <div class="shelf-head reveal">
+      <h2 class="kicker">Kitaplar · Müzik</h2>
+      <a class="media-link" href="/media">Tüm medya</a>
+    </div>
+    <div class="shelf-grid">
+      {
+        works.map((work) =>
+          work.href ? (
+            <a class="work-card reveal" href={work.href} rel="noreferrer">
+              <div class:list={['work-cover', { 'work-cover-album': work.kind === 'Müzik' }]}>
+                <span class="work-cover-title">{work.title}</span>
+              </div>
+              <div class="work-kunye">
+                <span>{work.kind}</span>
+                <span>{work.note}</span>
+              </div>
+            </a>
+          ) : (
+            <article class="work-card reveal">
+              <div class="work-cover">
+                <span class="work-cover-title">{work.title}</span>
+              </div>
+              <div class="work-kunye">
+                <span>{work.kind}</span>
+                <span>{work.note}</span>
+              </div>
+            </article>
+          ),
+        )
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="archive-head reveal">
+      <h2 class="kicker">Arşivden</h2>
+      <a class="media-link" href="/poetry">Tüm şiirler</a>
+    </div>
+    <ol class="archive-list reveal">
+      {
+        latest.map((item) => (
+          <li class="archive-row">
+            <a href={hrefFor(item)}>
+              <span class="archive-type">{typeLabels[item._type] ?? item._type}</span>
+              <span class="archive-title">{item.title}</span>
+              <span class="archive-date">{formatDate(item.publishedAt)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+</BaseLayout>

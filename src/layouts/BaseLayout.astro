@@ -1,0 +1,109 @@
+---
+import '../styles/global.css';
+import PoetraMark from '../components/PoetraMark.astro';
+
+type Props = {
+  title?: string;
+  description?: string;
+};
+
+const {
+  title = 'Poetra',
+  description = 'Poetra.art poetry, writings, media and inquiries.',
+} = Astro.props;
+
+const pageTitle = title === 'Poetra' ? title : `${title} | Poetra`;
+
+const navItems = [
+  { href: '/poetry', label: 'Şiir' },
+  { href: '/writings', label: 'Yazılar' },
+  { href: '/felsefe', label: 'Felsefe' },
+  { href: '/media', label: 'Medya' },
+  { href: '/about', label: 'Hakkında' },
+];
+
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isActive = (href: string) =>
+  currentPath === href || currentPath.startsWith(`${href}/`);
+const year = new Date().getFullYear();
+const canonicalUrl = Astro.site
+  ? new URL(Astro.url.pathname, Astro.site).href
+  : undefined;
+---
+
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <title>{pageTitle}</title>
+    <!-- Gate reveal-hidden state on JS availability before first paint. -->
+    <script is:inline>
+      document.documentElement.classList.add('js');
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Poetra ana sayfa">
+        <PoetraMark width={26} class="brand-mark" />
+        <span>Poetra<em>.art</em></span>
+      </a>
+      <nav class="site-nav" aria-label="Ana menü">
+        {
+          navItems.map((item) => (
+            <a href={item.href} aria-current={isActive(item.href) ? 'page' : undefined}>
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="footer-top">
+        <a class="brand footer-brand" href="/" aria-label="Poetra ana sayfa">
+          <PoetraMark width={20} class="brand-mark" />
+          <span>Poetra<em>.art</em></span>
+        </a>
+        <nav class="footer-nav" aria-label="Alt menü">
+          {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+          <a href="https://www.youtube.com/@MuntraVersio" rel="noreferrer">YouTube · Muntra Versio</a>
+        </nav>
+      </div>
+      <p class="footer-word" aria-hidden="true">Poetra</p>
+      <p class="footer-meta">Şiir, yazı ve müzik arşivi · © {year} Poetra.art</p>
+    </footer>
+
+    <!-- One-time entry reveal (§6): single IntersectionObserver, unobserve on
+         reveal, no scroll listeners, poem content excluded, reduced-motion
+         short-circuits to visible. -->
+    <script>
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const targets = Array.from(document.querySelectorAll<HTMLElement>('.reveal')).filter(
+        (el) => !el.classList.contains('poem-body') && !el.closest('.poem-sheet'),
+      );
+
+      if (reduced || !('IntersectionObserver' in window)) {
+        for (const el of targets) el.classList.add('is-revealed');
+      } else {
+        const io = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-revealed');
+                io.unobserve(entry.target);
+              }
+            }
+          },
+          { threshold: 0.15 },
+        );
+        for (const el of targets) io.observe(el);
+      }
+    </script>
+  </body>
+</html>

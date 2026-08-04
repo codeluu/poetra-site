@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDate, formatLabel, languageLabel } from '../../lib/format';
+import { sanityClient, type ContentDocument } from '../../lib/sanity';
+
+const entries = await sanityClient.fetch<ContentDocument[]>(`
+  *[
+    _type == "mediaEntry" &&
+    !(_id in path("drafts.**")) &&
+    defined(slug.current)
+  ]|order(publishedAt desc){
+    _id,
+    title,
+    slug,
+    language,
+    kind,
+    youtubeUrl,
+    spotifyUrl,
+    soundCloudUrl,
+    publishedAt,
+    "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...180]),
+    seo
+  }
+`);
+---
+
+<BaseLayout title="Medya" description="Poetra müzik ve video arşivi.">
+  <section class="section page-title">
+    <h1>Medya</h1>
+    <p>Poetra arşivinden müzik ve video kayıtları.</p>
+  </section>
+
+  <section class="section">
+    {
+      entries.length ? (
+        <div class="grid">
+          {entries.map((entry) => (
+            <article class="item">
+              <div>
+                <div class="meta">
+                  <span>{languageLabel(entry.language)}</span>
+                  <span>{formatLabel(entry.kind)}</span>
+                  <span>{formatDate(entry.publishedAt)}</span>
+                </div>
+                <h2>{entry.title}</h2>
+                {entry.excerpt && <p class="excerpt">{entry.excerpt}</p>}
+              </div>
+              <div class="meta">
+                {entry.youtubeUrl && <a class="media-link" href={entry.youtubeUrl}>YouTube</a>}
+                {entry.spotifyUrl && <a class="media-link" href={entry.spotifyUrl}>Spotify</a>}
+                {entry.soundCloudUrl && <a class="media-link" href={entry.soundCloudUrl}>SoundCloud</a>}
+                {!entry.youtubeUrl && !entry.spotifyUrl && !entry.soundCloudUrl && (
+                  <span>Bağlantı yakında</span>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <p class="empty">Henüz medya kaydı bulunamadı.</p>
+      )
+    }
+  </section>
+</BaseLayout>

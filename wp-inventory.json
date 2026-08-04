@@ -1,0 +1,734 @@
+{
+  "totalItems": 117,
+  "targetCounts": {
+    "page": 2,
+    "asset_later": 19,
+    "poetry": 22,
+    "writing": 11,
+    "exclude": 61,
+    "mediaEntry": 2
+  },
+  "wpTypeStatusCounts": {
+    "page:publish": 2,
+    "attachment:inherit": 19,
+    "post:publish": 30,
+    "post:draft": 5,
+    "wp_global_styles:publish": 50,
+    "wp_navigation:publish": 1,
+    "wp_template_part:publish": 5,
+    "wp_template:publish": 5
+  },
+  "categoryCounts": {
+    "English Poems": 2,
+    "Spiritual Path": 6,
+    "Turkish Shorts": 10,
+    "Turkish Poems": 20,
+    "Music": 2
+  },
+  "topTags": {
+    "soyut şiir": 12,
+    "love poems": 9,
+    "spiritüel şiirler": 6,
+    "istanbul şiirleri": 2,
+    "renk şiirleri": 2,
+    "heart broken poems": 1,
+    "rock'n roll poems": 1,
+    "Ho'oponopono": 1,
+    "inquiries": 1,
+    "sanat sokakta": 1,
+    "sokak yazıları": 1,
+    "barış şiirleri": 1,
+    "deniz şiirleri": 1,
+    "aykırı şiirler": 1,
+    "aşk şiirleri": 1,
+    "boğaz şiirleri": 1,
+    "istanbul": 1,
+    "tiyatro şiirleri": 1,
+    "kırmızı şiiri": 1,
+    "ilahi şiir": 1,
+    "ilhan irem": 1,
+    "koridor": 1,
+    "romans": 1,
+    "ceviz ağacı": 1,
+    "günlük": 1,
+    "tıkırtı": 1
+  },
+  "mappedContent": [
+    {
+      "wpId": "1",
+      "status": "publish",
+      "date": "2025-03-06 20:43:02",
+      "title": "Who am I?",
+      "slug": "about",
+      "targetType": "page",
+      "language": "en",
+      "categories": [],
+      "tags": []
+    },
+    {
+      "wpId": "11",
+      "status": "publish",
+      "date": "2023-03-15 23:48:00",
+      "title": "“Inconvenience”",
+      "slug": "inconvenience",
+      "targetType": "poetry",
+      "language": "en",
+      "categories": [
+        "English Poems"
+      ],
+      "tags": [
+        "heart broken poems",
+        "love poems"
+      ]
+    },
+    {
+      "wpId": "20",
+      "status": "publish",
+      "date": "2023-04-14 02:28:00",
+      "title": "Inhale Blue, exhale gray",
+      "slug": "inhale-blue-exhale-gray",
+      "targetType": "poetry",
+      "language": "en",
+      "categories": [
+        "English Poems"
+      ],
+      "tags": [
+        "love poems",
+        "rock'n roll poems"
+      ]
+    },
+    {
+      "wpId": "38",
+      "status": "publish",
+      "date": "2025-03-07 13:42:28",
+      "title": "Eternal Inquiries",
+      "slug": "eternal-inquiries",
+      "targetType": "page",
+      "language": "en",
+      "categories": [],
+      "tags": []
+    },
+    {
+      "wpId": "72",
+      "status": "publish",
+      "date": "2025-03-08 19:48:06",
+      "title": "Ho'oponopono: Does It Really Work?",
+      "slug": "hooponopono-does-it-really-work",
+      "targetType": "writing",
+      "language": "en",
+      "categories": [
+        "Spiritual Path"
+      ],
+      "tags": [
+        "Ho'oponopono",
+        "inquiries"
+      ]
+    },
+    {
+      "wpId": "90",
+      "status": "publish",
+      "date": "2023-03-31 23:53:00",
+      "title": "Mazhar abi",
+      "slug": "mazhar-abi",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Turkish Shorts"
+      ],
+      "tags": [
+        "sanat sokakta",
+        "sokak yazıları"
+      ]
+    },
+    {
+      "wpId": "95",
+      "status": "publish",
+      "date": "2002-10-30 00:00:00",
+      "title": "Sur",
+      "slug": "sur",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "barış şiirleri",
+        "deniz şiirleri",
+        "soyut şiir"
+      ]
+    },
+    {
+      "wpId": "101",
+      "status": "publish",
+      "date": "2024-07-25 05:10:00",
+      "title": "İllüzyon",
+      "slug": "illuzyon",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "aykırı şiirler",
+        "soyut şiir",
+        "spiritüel şiirler"
+      ]
+    },
+    {
+      "wpId": "131",
+      "status": "publish",
+      "date": "2004-06-22 20:42:00",
+      "title": "Yine de varım!",
+      "slug": "yine-de-varim",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "aşk şiirleri",
+        "soyut şiir"
+      ]
+    },
+    {
+      "wpId": "217",
+      "status": "publish",
+      "date": "2025-02-24 22:44:00",
+      "title": "Değişen Hava",
+      "slug": "degisen-hava",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "boğaz şiirleri",
+        "istanbul",
+        "istanbul şiirleri"
+      ]
+    },
+    {
+      "wpId": "226",
+      "status": "publish",
+      "date": "2024-11-24 22:44:00",
+      "title": "Alkış Kıyamet",
+      "slug": "alkis-kiyamet",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "tiyatro şiirleri"
+      ]
+    },
+    {
+      "wpId": "233",
+      "status": "publish",
+      "date": "2002-10-01 23:24:00",
+      "title": "Kırmızı",
+      "slug": "kirmizi",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "kırmızı şiiri",
+        "renk şiirleri",
+        "soyut şiir"
+      ]
+    },
+    {
+      "wpId": "237",
+      "status": "publish",
+      "date": "2024-09-06 15:40:00",
+      "title": "Meret",
+      "slug": "meret",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "ilahi şiir",
+        "istanbul şiirleri",
+        "soyut şiir",
+        "spiritüel şiirler"
+      ]
+    },
+    {
+      "wpId": "245",
+      "status": "draft",
+      "date": "2025-06-21 16:01:33",
+      "title": "Beklenmeyeni Bekleyin 1.Bölüm",
+      "slug": "beklenmeyeni-bekleyin-1-bolum",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Turkish Shorts"
+      ],
+      "tags": []
+    },
+    {
+      "wpId": "256",
+      "status": "publish",
+      "date": "2024-12-05 05:15:00",
+      "title": "Basamak Aralığı",
+      "slug": "basamak-araligi",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "soyut şiir",
+        "spiritüel şiirler"
+      ]
+    },
+    {
+      "wpId": "275",
+      "status": "draft",
+      "date": "2025-06-10 20:44:12",
+      "title": "İnsanın kendini yenmesi...",
+      "slug": "insanin-kendini-yenmesi",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Turkish Shorts"
+      ],
+      "tags": []
+    },
+    {
+      "wpId": "320",
+      "status": "draft",
+      "date": "2025-07-04 15:37:46",
+      "title": "3 Tek",
+      "slug": "3-tek",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Turkish Shorts"
+      ],
+      "tags": []
+    },
+    {
+      "wpId": "352",
+      "status": "publish",
+      "date": "2024-12-07 20:53:00",
+      "title": "Bal Göz",
+      "slug": "bal-goz",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "renk şiirleri",
+        "soyut şiir"
+      ]
+    },
+    {
+      "wpId": "364",
+      "status": "publish",
+      "date": "2024-11-21 21:22:00",
+      "title": "Havada(r)",
+      "slug": "havadar",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Spiritual Path",
+        "Turkish Poems"
+      ],
+      "tags": [
+        "soyut şiir",
+        "spiritüel şiirler"
+      ]
+    },
+    {
+      "wpId": "374",
+      "status": "draft",
+      "date": "2025-12-26 21:36:28",
+      "title": "Bilge Ceviz Ağacından",
+      "slug": "bilge-ceviz-agacindan",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Turkish Shorts"
+      ],
+      "tags": []
+    },
+    {
+      "wpId": "406",
+      "status": "draft",
+      "date": "2026-02-17 10:35:08",
+      "title": "17 Şubat 2026 Perde",
+      "slug": "17-subat-2026-perde",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Turkish Shorts"
+      ],
+      "tags": []
+    },
+    {
+      "wpId": "252",
+      "status": "publish",
+      "date": "2025-03-30 09:18:32",
+      "title": "Mürekkep",
+      "slug": "murekkep",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "soyut şiir"
+      ]
+    },
+    {
+      "wpId": "263",
+      "status": "publish",
+      "date": "2025-04-16 14:37:07",
+      "title": "Bocardo neden mükemmel bir tasım değildir?",
+      "slug": "bocardo-neden-mukemmel-bir-tasim-degildir",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Turkish Shorts"
+      ],
+      "tags": []
+    },
+    {
+      "wpId": "285",
+      "status": "publish",
+      "date": "2025-06-12 22:28:19",
+      "title": "Bir belirti, bir ihtimal",
+      "slug": "bir-belirti-bir-ihtimal",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": []
+    },
+    {
+      "wpId": "288",
+      "status": "publish",
+      "date": "2025-06-20 06:24:37",
+      "title": "İçim dışım bir",
+      "slug": "icim-disim-bir",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "soyut şiir"
+      ]
+    },
+    {
+      "wpId": "291",
+      "status": "publish",
+      "date": "2025-06-24 13:02:49",
+      "title": "Kalbimin kalbinden",
+      "slug": "kalbimin-kalbinden",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "spiritüel şiirler"
+      ]
+    },
+    {
+      "wpId": "295",
+      "status": "publish",
+      "date": "2025-06-25 23:54:48",
+      "title": "🎼 Müziğin Gölgesinde",
+      "slug": "muzigin-golgesinde",
+      "targetType": "mediaEntry",
+      "language": "tr",
+      "categories": [
+        "Music"
+      ],
+      "tags": []
+    },
+    {
+      "wpId": "311",
+      "status": "publish",
+      "date": "2025-07-01 22:05:58",
+      "title": "Hatırla...",
+      "slug": "hatirla",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Turkish Shorts"
+      ],
+      "tags": [
+        "love poems"
+      ]
+    },
+    {
+      "wpId": "322",
+      "status": "publish",
+      "date": "2025-07-14 21:52:30",
+      "title": "Döngü",
+      "slug": "dongu",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Spiritual Path",
+        "Turkish Poems"
+      ],
+      "tags": [
+        "love poems",
+        "soyut şiir",
+        "spiritüel şiirler"
+      ]
+    },
+    {
+      "wpId": "326",
+      "status": "publish",
+      "date": "2025-09-08 19:44:47",
+      "title": "Gönlün Genişliği",
+      "slug": "gonlun-genisligi",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "love poems"
+      ]
+    },
+    {
+      "wpId": "331",
+      "status": "publish",
+      "date": "2025-12-14 14:31:11",
+      "title": "İlhan İrem'e Özel",
+      "slug": "ilhan-ireme-ozel",
+      "targetType": "mediaEntry",
+      "language": "tr",
+      "categories": [
+        "Music",
+        "Spiritual Path",
+        "Turkish Shorts"
+      ],
+      "tags": [
+        "ilhan irem",
+        "koridor",
+        "romans"
+      ]
+    },
+    {
+      "wpId": "341",
+      "status": "publish",
+      "date": "2025-12-20 23:40:29",
+      "title": "Binlercesinden seçilmiş bir simülasyon",
+      "slug": "binlercesinden-secilmis-bir-simulasyon",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "love poems",
+        "soyut şiir"
+      ]
+    },
+    {
+      "wpId": "357",
+      "status": "publish",
+      "date": "2025-12-22 21:05:57",
+      "title": "Bir tutam güneş",
+      "slug": "bir-tutam-gunes",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "love poems"
+      ]
+    },
+    {
+      "wpId": "376",
+      "status": "publish",
+      "date": "2025-12-26 13:57:44",
+      "title": "Korkuyu yenmek",
+      "slug": "korkuyu-yenmek",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "love poems"
+      ]
+    },
+    {
+      "wpId": "386",
+      "status": "publish",
+      "date": "2026-01-07 23:39:40",
+      "title": "Yay gitmiştir çoktan",
+      "slug": "yay-gitmistir-coktan",
+      "targetType": "poetry",
+      "language": "tr",
+      "categories": [
+        "Turkish Poems"
+      ],
+      "tags": [
+        "love poems"
+      ]
+    },
+    {
+      "wpId": "390",
+      "status": "publish",
+      "date": "2025-12-05 21:33:00",
+      "title": "5 Aralık 2026",
+      "slug": "5-aralik-2026",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Spiritual Path",
+        "Turkish Shorts"
+      ],
+      "tags": [
+        "ceviz ağacı",
+        "günlük",
+        "tıkırtı"
+      ]
+    },
+    {
+      "wpId": "397",
+      "status": "publish",
+      "date": "2026-01-08 23:42:07",
+      "title": "8 Ocak Perşembe - Ceviz Ağacı'ndan",
+      "slug": "8-ocak-persembe-ceviz-agacindan",
+      "targetType": "writing",
+      "language": "tr",
+      "categories": [
+        "Spiritual Path"
+      ],
+      "tags": []
+    }
+  ],
+  "attachments": [
+    {
+      "wpId": "28",
+      "title": "Screenshot 2025-03-07 at 12.54.08",
+      "parent": "0",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/screenshot-2025-03-07-at-12.54.08.png"
+    },
+    {
+      "wpId": "29",
+      "title": "Screenshot 2025-03-07 at 12.54.08",
+      "parent": "28",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/cropped-screenshot-2025-03-07-at-12.54.08.png"
+    },
+    {
+      "wpId": "41",
+      "title": "Screenshot 2025-03-07 at 12.53.05",
+      "parent": "0",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/screenshot-2025-03-07-at-12.53.05-1.png"
+    },
+    {
+      "wpId": "66",
+      "title": "Fermi Sees the Gamma Ray Sky",
+      "parent": "38",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/4059194656_08a343f5f8_b.jpg"
+    },
+    {
+      "wpId": "67",
+      "title": "Blue Moon 2012",
+      "parent": "38",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/7901320696_87d7eeb622.jpg"
+    },
+    {
+      "wpId": "69",
+      "title": "d3a2b0097770b0e9f358f856114a6968",
+      "parent": "38",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/d3a2b0097770b0e9f358f856114a6968.jpg"
+    },
+    {
+      "wpId": "70",
+      "title": "d3a2b0097770b0e9f358f856114a6968",
+      "parent": "0",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/d3a2b0097770b0e9f358f856114a6968-edited.jpg"
+    },
+    {
+      "wpId": "83",
+      "title": "075f9aafb02ad9b7e37d07ecc8030fb6",
+      "parent": "72",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/075f9aafb02ad9b7e37d07ecc8030fb6-e1741452915866.jpg"
+    },
+    {
+      "wpId": "86",
+      "title": "9c850580bbb7ed315e82d7f51188c95d",
+      "parent": "72",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/9c850580bbb7ed315e82d7f51188c95d.jpg"
+    },
+    {
+      "wpId": "87",
+      "title": "Screenshot 2025-03-11 at 19.00.48",
+      "parent": "20",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2023/04/screenshot-2025-03-11-at-19.00.48.png"
+    },
+    {
+      "wpId": "88",
+      "title": "b1aa46d80673e6cea98ed27188bf0ea9",
+      "parent": "11",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2023/03/b1aa46d80673e6cea98ed27188bf0ea9.jpg"
+    },
+    {
+      "wpId": "92",
+      "title": "384cee70-95da-4377-abbe-919a0f7bf7d1_1456x816",
+      "parent": "90",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/384cee70-95da-4377-abbe-919a0f7bf7d1_1456x816.jpg"
+    },
+    {
+      "wpId": "99",
+      "title": "image",
+      "parent": "95",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/image.jpg"
+    },
+    {
+      "wpId": "136",
+      "title": "dcb3c72a87eed53837b32b081e2c0b3a",
+      "parent": "131",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/dcb3c72a87eed53837b32b081e2c0b3a.jpg"
+    },
+    {
+      "wpId": "211",
+      "title": "Screenshot 2025-03-16 at 22.23.08",
+      "parent": "0",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/screenshot-2025-03-16-at-22.23.08.png"
+    },
+    {
+      "wpId": "212",
+      "title": "Screenshot 2025-03-16 at 22.23.08",
+      "parent": "211",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/cropped-screenshot-2025-03-16-at-22.23.08.png"
+    },
+    {
+      "wpId": "213",
+      "title": "Adsız tasarım",
+      "parent": "181",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/adsiz-tasarim.png"
+    },
+    {
+      "wpId": "215",
+      "title": "favicon",
+      "parent": "0",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/favicon.png"
+    },
+    {
+      "wpId": "216",
+      "title": "cropped-favicon.png",
+      "parent": "215",
+      "url": "https://poetraart.wordpress.com/wp-content/uploads/2025/03/cropped-favicon.png"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDate, formatLabel, languageLabel } from '../../lib/format';
+import { sanityClient, type ContentDocument } from '../../lib/sanity';
+
+const writings = await sanityClient.fetch<ContentDocument[]>(`
+  *[
+    _type == "writing" &&
+    !(_id in path("drafts.**")) &&
+    defined(slug.current)
+  ]|order(publishedAt desc){
+    _id,
+    title,
+    slug,
+    language,
+    publishedAt,
+    format,
+    "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...220]),
+    seo
+  }
+`);
+---
+
+<BaseLayout title="Yazılar" description="Poetra yazılar arşivi.">
+  <section class="section page-title">
+    <h1>Yazılar</h1>
+    <p>Denemeler, günlük parçaları ve felsefi sorgular.</p>
+  </section>
+
+  <section class="section">
+    {
+      writings.length ? (
+        <ol class="entry-list">
+          {writings.map((writing) => (
+            <li class="entry">
+              <a class="entry-link" href={`/writings/${writing.slug.current}`}>
+                <article>
+                  <div class="meta">
+                    <span>{formatLabel(writing.format)}</span>
+                    <span>{languageLabel(writing.language)}</span>
+                    <span>{formatDate(writing.publishedAt)}</span>
+                  </div>
+                  <h2 class="entry-title">{writing.title}</h2>
+                  {writing.excerpt && <p class="entry-excerpt">{writing.excerpt}</p>}
+                </article>
+              </a>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <p class="empty">Henüz yazı bulunamadı.</p>
+      )
+    }
+  </section>
+</BaseLayout>

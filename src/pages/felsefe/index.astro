@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDate, formatLabel, languageLabel } from '../../lib/format';
+import { sanityClient, type ContentDocument } from '../../lib/sanity';
+
+/**
+ * Felsefe grouping — existing fields only, no schema change.
+ * A writing appears here when, in Sanity Studio, either:
+ *   - its Format is "Inquiry / Sorgu", or
+ *   - its Tags include "felsefe" (or "philosophy").
+ * Detail pages reuse /writings/[slug]; no duplicate routes.
+ */
+const writings = await sanityClient.fetch<ContentDocument[]>(`
+  *[
+    _type == "writing" &&
+    !(_id in path("drafts.**")) &&
+    defined(slug.current) &&
+    (
+      format == "inquiry" ||
+      count(tags[@ in ["felsefe", "Felsefe", "philosophy", "Philosophy"]]) > 0
+    )
+  ]|order(publishedAt desc){
+    _id,
+    title,
+    slug,
+    language,
+    publishedAt,
+    format,
+    "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...220]),
+    seo
+  }
+`);
+---
+
+<BaseLayout
+  title="Felsefe"
+  description="Poetra felsefe yazıları — sorgular, kavramlar ve düşünce denemeleri."
+>
+  <section class="section page-title">
+    <h1>Felsefe</h1>
+    <p>Sorgular, kavramlar ve düşünce denemeleri — acele etmeden düşünmek için.</p>
+  </section>
+
+  <section class="section">
+    {
+      writings.length ? (
+        <ol class="entry-list">
+          {writings.map((writing) => (
+            <li class="entry">
+              <a class="entry-link" href={`/writings/${writing.slug.current}`}>
+                <article>
+                  <div class="meta">
+                    <span>{formatLabel(writing.format)}</span>
+                    <span>{languageLabel(writing.language)}</span>
+                    <span>{formatDate(writing.publishedAt)}</span>
+                  </div>
+                  <h2 class="entry-title">{writing.title}</h2>
+                  {writing.excerpt && <p class="entry-excerpt">{writing.excerpt}</p>}
+                </article>
+              </a>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <p class="empty">Felsefe yazıları yakında burada yer alacak.</p>
+      )
+    }
+  </section>
+</BaseLayout>

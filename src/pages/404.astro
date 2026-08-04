@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Sayfa bulunamadı"
+  description="Aradığınız sayfa Poetra arşivinde bulunamadı."
+>
+  <section class="section page-title">
+    <h1>Sayfa bulunamadı</h1>
+    <p>
+      Aradığınız sayfa taşınmış ya da henüz yazılmamış olabilir. Arşiv yine de
+      açık — aşağıdan devam edebilirsiniz.
+    </p>
+  </section>
+
+  <section class="section">
+    <nav class="meta" aria-label="Arşive dönüş">
+      <a href="/">Ana sayfa</a>
+      <a href="/poetry">Şiir</a>
+      <a href="/writings">Yazılar</a>
+      <a href="/media">Medya</a>
+    </nav>
+  </section>
+</BaseLayout>

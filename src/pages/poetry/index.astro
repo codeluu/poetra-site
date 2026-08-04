@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDate } from '../../lib/format';
+import { sanityClient, type ContentSummary } from '../../lib/sanity';
+
+const poems = await sanityClient.fetch<ContentSummary[]>(`
+  *[
+    _type == "poetry" &&
+    !(_id in path("drafts.**")) &&
+    defined(slug.current)
+  ]|order(publishedAt desc){
+    _id,
+    title,
+    slug,
+    originalLanguage,
+    publishedAt
+  }
+`);
+
+/* D1: year-grouped table of contents. Poems arrive sorted desc, so
+   insertion order of the map keeps years newest-first. */
+const byYear = new Map<string, ContentSummary[]>();
+for (const poem of poems) {
+  const year = poem.publishedAt
+    ? String(new Date(poem.publishedAt).getFullYear())
+    : 'Tarihsiz';
+  const group = byYear.get(year);
+  if (group) group.push(poem);
+  else byYear.set(year, [poem]);
+}
+const yearGroups = [...byYear.entries()];
+---
+
+<BaseLayout title="Şiir" description="Poetra şiir arşivi.">
+  <section class="section page-title">
+    <h1>Şiir Arşivi</h1>
+    <p>Türkçe ve İngilizce şiirler — yıl yıl, sessiz bir bütün olarak.</p>
+  </section>
+
+  <section class="section">
+    {
+      yearGroups.length ? (
+        <>
+          {yearGroups.map(([year, group]) => (
+            <div class="toc-year reveal">
+              <h2 class="kicker">{year}</h2>
+              <ol class="toc-list">
+                {group.map((poem) => (
+                  <li class="toc-row">
+                    <a href={`/poetry/${poem.originalLanguage}/${poem.slug.current}`}>
+                      <span class="toc-title">{poem.title}</span>
+                      <span class="toc-leader" aria-hidden="true" />
+                      <span class="toc-date">{formatDate(poem.publishedAt)}</span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))}
+          <p class="ornament" aria-hidden="true">⁂</p>
+        </>
+      ) : (
+        <p class="empty">Henüz şiir bulunamadı.</p>
+      )
+    }
+  </section>
+</BaseLayout>

@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PoemArticle from '../../../components/PoemArticle.astro';
+import { portableTextToHtml } from '../../../lib/portableText';
+import { sanityClient, type ContentDocument } from '../../../lib/sanity';
+
+export async function getStaticPaths() {
+  const poems = await sanityClient.fetch<ContentDocument[]>(`
+    *[
+      _type == "poetry" &&
+      originalLanguage == "en" &&
+      !(_id in path("drafts.**")) &&
+      defined(slug.current)
+    ]|order(publishedAt desc){
+      _id,
+      title,
+      slug,
+      originalLanguage,
+      publishedAt,
+      tags,
+      body,
+      seo
+    }
+  `);
+
+  return poems.map((poem) => ({
+    params: { slug: poem.slug.current },
+    props: { poem },
+  }));
+}
+
+const { poem } = Astro.props;
+const bodyHtml = portableTextToHtml(poem.body);
+---
+
+<BaseLayout
+  title={poem.seo?.title ?? poem.title}
+  description={poem.seo?.description ?? `${poem.title} poem.`}
+>
+  <PoemArticle poem={poem} bodyHtml={bodyHtml} />
+</BaseLayout>
