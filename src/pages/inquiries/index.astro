@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { portableTextToHtml } from '../../lib/portableText';
+import { sanityClient, type ContentDocument } from '../../lib/sanity';
+
+const page = await sanityClient.fetch<ContentDocument | null>(`
+  *[
+    _type == "page" &&
+    pageType == "inquiries" &&
+    !(_id in path("drafts.**"))
+  ][0]{
+    _id,
+    title,
+    slug,
+    language,
+    pageType,
+    body,
+    seo
+  }
+`);
+
+const bodyHtml = portableTextToHtml(page?.body);
+---
+
+<BaseLayout
+  title={page?.seo?.title ?? page?.title ?? 'Sorgular'}
+  description={page?.seo?.description ?? 'Poetra sorguları.'}
+>
+  <article class="article">
+    <div class="meta">
+      <a href="/">Poetra</a>
+      <span>Sorgular</span>
+    </div>
+    <h1>{page?.title ?? 'Sorgular'}</h1>
+    {
+      page ? (
+        <div class="portable" set:html={bodyHtml} />
+      ) : (
+        <p class="empty">Sorgular sayfası bulunamadı.</p>
+      )
+    }
+  </article>
+</BaseLayout>
