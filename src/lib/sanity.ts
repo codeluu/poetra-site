@@ -1,4 +1,5 @@
 import { createClient } from '@sanity/client';
+import type { YouTubeEmbedBlock } from './youtube';
 
 export const sanityClient = createClient({
   projectId: import.meta.env.PUBLIC_SANITY_PROJECT_ID ?? 'mcbpzste',
@@ -11,7 +12,7 @@ export type PortableTextBlock = {
   _key: string;
   _type: string;
   [key: string]: unknown;
-};
+} | YouTubeEmbedBlock;
 
 export type Slug = {
   current: string;

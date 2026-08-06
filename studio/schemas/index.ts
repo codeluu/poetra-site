@@ -1,5 +1,6 @@
 import { blockContent } from './objects/blockContent';
 import { seo } from './objects/seo';
+import { youtubeEmbed } from './objects/youtubeEmbed';
 
 import { poetry } from './documents/poetry';
 import { writing } from './documents/writing';
@@ -12,6 +13,7 @@ import { homePage } from './documents/homePage';
 export const schemaTypes = [
   blockContent,
   seo,
+  youtubeEmbed,
   homePage,
   poetry,
   writing,

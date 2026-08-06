@@ -1,0 +1,47 @@
+---
+import { getYouTubeEmbedUrl, type YouTubeEmbedBlock } from '../../lib/youtube';
+
+type Props = Omit<YouTubeEmbedBlock, '_type'>;
+
+const {
+  url,
+  title,
+  caption,
+  credit,
+  displayStyle = 'editorial',
+} = Astro.props;
+
+const embedUrl = getYouTubeEmbedUrl(url);
+const style = displayStyle === 'minimal' ? 'minimal' : 'editorial';
+const iframeTitle = title?.trim() || 'Poetra YouTube videosu';
+const hasMeta = caption || credit;
+---
+
+{
+  embedUrl ? (
+    <figure class={`youtube-embed youtube-embed--${style}`}>
+      <div class="youtube-embed__frame">
+        {style === 'editorial' && <span class="youtube-embed__label">Hareketli imge</span>}
+        <iframe
+          src={embedUrl}
+          title={iframeTitle}
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      {
+        hasMeta && (
+          <figcaption class="youtube-embed__caption">
+            {caption && <span>{caption}</span>}
+            {credit && <cite>{credit}</cite>}
+          </figcaption>
+        )
+      }
+    </figure>
+  ) : (
+    <figure class="youtube-embed youtube-embed--invalid">
+      <p>Video bağlantısı geçersiz.</p>
+    </figure>
+  )
+}
