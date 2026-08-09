@@ -245,6 +245,7 @@ main {
 
 .hero .kicker {
   margin-bottom: var(--space-3);
+  text-transform: none;
 }
 
 .hero h1 {
