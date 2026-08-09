@@ -170,12 +170,21 @@ a:hover {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.04em;
+  font-feature-settings: normal;
+  font-variant-caps: normal;
+  text-transform: none;
 }
 
 .site-nav a,
 .footer-nav a {
   text-decoration: none;
   transition: color 160ms ease;
+}
+
+.site-nav a {
+  font-feature-settings: inherit;
+  font-variant-caps: inherit;
+  text-transform: inherit;
 }
 
 .site-nav a:hover,
