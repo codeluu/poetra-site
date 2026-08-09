@@ -9,12 +9,14 @@ import { artwork } from './documents/artwork';
 import { collection } from './documents/collection';
 import { page } from './documents/page';
 import { homePage } from './documents/homePage';
+import { siteSettings } from './documents/siteSettings';
 
 export const schemaTypes = [
   blockContent,
   seo,
   youtubeEmbed,
   homePage,
+  siteSettings,
   poetry,
   writing,
   mediaEntry,

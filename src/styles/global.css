@@ -169,8 +169,7 @@ a:hover {
   color: var(--ink-secondary);
   font-size: 12px;
   font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .site-nav a,
@@ -955,8 +954,7 @@ a.work-card:hover {
   gap: 12px 20px;
   font-size: 12px;
   font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .footer-word {
@@ -975,8 +973,7 @@ a.work-card:hover {
   font-family: var(--font-ui);
   font-size: 12px;
   font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 /* ---------- Motion: one-time entry reveal (§6) ---------- */

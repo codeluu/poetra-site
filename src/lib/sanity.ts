@@ -57,6 +57,20 @@ export type HomeWorkCard = {
   url?: string;
 };
 
+export type NavigationItem = {
+  label?: string;
+  href?: string;
+  enabled?: boolean;
+  openInNewTab?: boolean;
+};
+
+export type SiteSettings = {
+  headerNavigation?: NavigationItem[];
+  footerText?: string;
+  copyrightText?: string;
+  footerNavigation?: NavigationItem[];
+};
+
 export type HomePageSettings = {
   heroKicker?: string;
   heroTitle?: string;

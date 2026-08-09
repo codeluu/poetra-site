@@ -17,7 +17,13 @@ export default defineConfig({
         S.list()
           .title('İçerik')
           .items([
-            // Pinned singleton: one fixed document for homepage settings.
+            // Pinned singletons: one fixed document for global/home settings.
+            S.listItem()
+              .title('Site Settings / Site Ayarları')
+              .id('siteSettings')
+              .child(
+                S.document().schemaType('siteSettings').documentId('siteSettings'),
+              ),
             S.listItem()
               .title('Home Page / Ana Sayfa')
               .id('homePage')
@@ -26,7 +32,8 @@ export default defineConfig({
               ),
             S.divider(),
             ...S.documentTypeListItems().filter(
-              (item) => item.getId() !== 'homePage',
+              (item) =>
+                !['homePage', 'siteSettings'].includes(item.getId() ?? ''),
             ),
           ]),
     }),
