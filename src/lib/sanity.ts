@@ -30,8 +30,11 @@ export type ContentSummary = {
   format?: string;
   kind?: string;
   youtubeUrl?: string;
+  youtubeOpenInNewTab?: boolean;
   spotifyUrl?: string;
+  spotifyOpenInNewTab?: boolean;
   soundCloudUrl?: string;
+  soundCloudOpenInNewTab?: boolean;
   excerpt?: string;
   seo?: {
     title?: string;
@@ -55,6 +58,7 @@ export type HomeWorkCard = {
   kind?: string;
   note?: string;
   url?: string;
+  openInNewTab?: boolean;
 };
 
 export type NavigationItem = {

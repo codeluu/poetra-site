@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import PoetraMark from '../components/PoetraMark.astro';
+import { getLinkAttributes } from '../lib/link';
 import { sanityClient, type NavigationItem, type SiteSettings } from '../lib/sanity';
 
 type Props = {
@@ -97,8 +98,7 @@ const canonicalUrl = Astro.site
             <a
               href={item.href}
               aria-current={isActive(item.href ?? '') ? 'page' : undefined}
-              target={item.openInNewTab ? '_blank' : undefined}
-              rel={item.openInNewTab ? 'noreferrer' : undefined}
+              {...getLinkAttributes(item.openInNewTab)}
             >
               {item.label}
             </a>
@@ -120,8 +120,7 @@ const canonicalUrl = Astro.site
             footerItems.map((item) => (
               <a
                 href={item.href}
-                target={item.openInNewTab ? '_blank' : undefined}
-                rel={item.openInNewTab ? 'noreferrer' : undefined}
+                {...getLinkAttributes(item.openInNewTab)}
               >
                 {item.label}
               </a>

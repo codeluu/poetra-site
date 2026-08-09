@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import DailyQuote from '../components/DailyQuote.astro';
 import { formatDate } from '../lib/format';
+import { getLinkAttributes } from '../lib/link';
 import {
   sanityClient,
   type ContentSummary,
@@ -28,7 +29,7 @@ const home = await sanityClient.fetch<HomePageSettings | null>(`
       }, [])
     ][defined(slug.current)],
     shelfHeading,
-    works[]{ title, kind, note, url },
+    works[]{ title, kind, note, url, openInNewTab },
     seo
   }
 `);
@@ -149,7 +150,11 @@ const pageDescription =
       {
         workItems.map((work) =>
           work.url ? (
-            <a class="work-card reveal" href={work.url} rel="noreferrer">
+            <a
+              class="work-card reveal"
+              href={work.url}
+              {...getLinkAttributes(work.openInNewTab)}
+            >
               <div class:list={['work-cover', { 'work-cover-album': work.kind === 'Müzik' }]}>
                 <span class="work-cover-title">{work.title}</span>
               </div>

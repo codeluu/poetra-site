@@ -55,14 +55,32 @@ export const mediaEntry = defineType({
       type: 'url',
     }),
     defineField({
+      name: 'youtubeOpenInNewTab',
+      title: 'YouTube: Open in new tab / Yeni sekmede aç',
+      type: 'boolean',
+      initialValue: false,
+    }),
+    defineField({
       name: 'spotifyUrl',
       title: 'Spotify URL',
       type: 'url',
     }),
     defineField({
+      name: 'spotifyOpenInNewTab',
+      title: 'Spotify: Open in new tab / Yeni sekmede aç',
+      type: 'boolean',
+      initialValue: false,
+    }),
+    defineField({
       name: 'soundCloudUrl',
       title: 'SoundCloud URL',
       type: 'url',
+    }),
+    defineField({
+      name: 'soundCloudOpenInNewTab',
+      title: 'SoundCloud: Open in new tab / Yeni sekmede aç',
+      type: 'boolean',
+      initialValue: false,
     }),
     defineField({
       name: 'body',

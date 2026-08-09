@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { formatDate, formatLabel, languageLabel } from '../../lib/format';
+import { getLinkAttributes } from '../../lib/link';
 import { sanityClient, type ContentDocument } from '../../lib/sanity';
 
 const entries = await sanityClient.fetch<ContentDocument[]>(`
@@ -15,8 +16,11 @@ const entries = await sanityClient.fetch<ContentDocument[]>(`
     language,
     kind,
     youtubeUrl,
+    youtubeOpenInNewTab,
     spotifyUrl,
+    spotifyOpenInNewTab,
     soundCloudUrl,
+    soundCloudOpenInNewTab,
     publishedAt,
     "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...180]),
     seo
@@ -46,9 +50,33 @@ const entries = await sanityClient.fetch<ContentDocument[]>(`
                 {entry.excerpt && <p class="excerpt">{entry.excerpt}</p>}
               </div>
               <div class="meta">
-                {entry.youtubeUrl && <a class="media-link" href={entry.youtubeUrl}>YouTube</a>}
-                {entry.spotifyUrl && <a class="media-link" href={entry.spotifyUrl}>Spotify</a>}
-                {entry.soundCloudUrl && <a class="media-link" href={entry.soundCloudUrl}>SoundCloud</a>}
+                {entry.youtubeUrl && (
+                  <a
+                    class="media-link"
+                    href={entry.youtubeUrl}
+                    {...getLinkAttributes(entry.youtubeOpenInNewTab)}
+                  >
+                    YouTube
+                  </a>
+                )}
+                {entry.spotifyUrl && (
+                  <a
+                    class="media-link"
+                    href={entry.spotifyUrl}
+                    {...getLinkAttributes(entry.spotifyOpenInNewTab)}
+                  >
+                    Spotify
+                  </a>
+                )}
+                {entry.soundCloudUrl && (
+                  <a
+                    class="media-link"
+                    href={entry.soundCloudUrl}
+                    {...getLinkAttributes(entry.soundCloudOpenInNewTab)}
+                  >
+                    SoundCloud
+                  </a>
+                )}
                 {!entry.youtubeUrl && !entry.spotifyUrl && !entry.soundCloudUrl && (
                   <span>Bağlantı yakında</span>
                 )}

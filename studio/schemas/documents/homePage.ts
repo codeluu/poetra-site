@@ -109,6 +109,12 @@ export const homePage = defineType({
             }),
             defineField({ name: 'note', title: 'Note / Not', type: 'string' }),
             defineField({ name: 'url', title: 'URL (opsiyonel)', type: 'url' }),
+            defineField({
+              name: 'openInNewTab',
+              title: 'Open in new tab / Yeni sekmede aç',
+              type: 'boolean',
+              initialValue: false,
+            }),
           ],
           preview: {
             select: { title: 'title', subtitle: 'kind' },

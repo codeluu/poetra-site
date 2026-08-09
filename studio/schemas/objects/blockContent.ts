@@ -1,4 +1,4 @@
-import { defineArrayMember, defineType } from 'sanity';
+import { defineArrayMember, defineField, defineType } from 'sanity';
 
 export const blockContent = defineType({
   name: 'blockContent',
@@ -28,11 +28,17 @@ export const blockContent = defineType({
             title: 'Link',
             type: 'object',
             fields: [
-              {
+              defineField({
                 name: 'href',
                 title: 'URL',
                 type: 'url',
-              },
+              }),
+              defineField({
+                name: 'openInNewTab',
+                title: 'Open in new tab / Yeni sekmede aç',
+                type: 'boolean',
+                initialValue: false,
+              }),
             ],
           },
         ],
