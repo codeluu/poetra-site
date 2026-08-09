@@ -1,42 +1,14 @@
 import { defineField, defineType } from 'sanity';
-
-const YOUTUBE_ID_RE = /^[A-Za-z0-9_-]{11}$/;
-
-function getYouTubeVideoId(input?: string): string | null {
-  if (!input) return null;
-
-  try {
-    const url = new URL(input);
-    const hostname = url.hostname.replace(/^www\./, '');
-    const pathParts = url.pathname.split('/').filter(Boolean);
-
-    if (hostname === 'youtu.be') {
-      const [id] = pathParts;
-      return id && YOUTUBE_ID_RE.test(id) ? id : null;
-    }
-
-    if (hostname === 'youtube.com' || hostname === 'm.youtube.com') {
-      if (url.pathname === '/watch') {
-        const id = url.searchParams.get('v');
-        return id && YOUTUBE_ID_RE.test(id) ? id : null;
-      }
-
-      if (pathParts[0] === 'embed' || pathParts[0] === 'shorts') {
-        const id = pathParts[1];
-        return id && YOUTUBE_ID_RE.test(id) ? id : null;
-      }
-    }
-  } catch {
-    return null;
-  }
-
-  return null;
-}
+import { YouTubeEmbedPreview } from '../../components/YouTubeEmbedPreview';
+import { getYouTubeVideoId } from '../../lib/youtube';
 
 export const youtubeEmbed = defineType({
   name: 'youtubeEmbed',
   title: 'YouTube Video',
   type: 'object',
+  components: {
+    preview: YouTubeEmbedPreview,
+  },
   fields: [
     defineField({
       name: 'url',
@@ -51,23 +23,23 @@ export const youtubeEmbed = defineType({
     }),
     defineField({
       name: 'title',
-      title: 'Title',
+      title: 'Title / Başlık',
       type: 'string',
     }),
     defineField({
       name: 'caption',
-      title: 'Caption',
+      title: 'Caption / Açıklama',
       type: 'text',
       rows: 2,
     }),
     defineField({
       name: 'credit',
-      title: 'Credit',
+      title: 'Credit / Kaynak',
       type: 'string',
     }),
     defineField({
       name: 'displayStyle',
-      title: 'Display Style',
+      title: 'Display Style / Görünüm',
       type: 'string',
       options: {
         list: [

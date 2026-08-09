@@ -26,6 +26,7 @@ const navigationItem = defineArrayMember({
     defineField({
       name: 'openInNewTab',
       title: 'Open in new tab / Yeni sekmede aç',
+      description: 'Off by default. Enable only when this menu item should open a separate tab.',
       type: 'boolean',
       initialValue: false,
     }),
@@ -33,7 +34,21 @@ const navigationItem = defineArrayMember({
   preview: {
     select: {
       title: 'label',
-      subtitle: 'href',
+      href: 'href',
+      enabled: 'enabled',
+      openInNewTab: 'openInNewTab',
+    },
+    prepare({ title, href, enabled, openInNewTab }) {
+      return {
+        title,
+        subtitle: [
+          enabled === false ? 'Disabled' : 'Enabled',
+          openInNewTab ? 'New tab' : 'Same tab',
+          href,
+        ]
+          .filter(Boolean)
+          .join(' · '),
+      };
     },
   },
 });
@@ -42,12 +57,17 @@ export const siteSettings = defineType({
   name: 'siteSettings',
   title: 'Site Settings / Site Ayarları',
   type: 'document',
+  groups: [
+    { name: 'header', title: 'Header / Üst Menü', default: true },
+    { name: 'footer', title: 'Footer / Alt Menü' },
+  ],
   fields: [
     defineField({
       name: 'headerNavigation',
       title: 'Header Navigation / Üst Menü',
       description: 'Public header menu. The order here is the public menu order.',
       type: 'array',
+      group: 'header',
       of: [navigationItem],
     }),
     defineField({
@@ -55,12 +75,14 @@ export const siteSettings = defineType({
       title: 'Footer Text / Alt Bilgi Metni',
       type: 'string',
       description: 'Example: Şiir, yazı ve müzik arşivi',
+      group: 'footer',
     }),
     defineField({
       name: 'copyrightText',
       title: 'Copyright Text / Telif Metni',
       type: 'string',
       description: 'Example: © 2026 Poetra.art',
+      group: 'footer',
     }),
     defineField({
       name: 'footerNavigation',
@@ -68,6 +90,7 @@ export const siteSettings = defineType({
       description:
         'Optional footer menu. If empty, the footer uses the header menu plus the existing YouTube link.',
       type: 'array',
+      group: 'footer',
       of: [navigationItem],
     }),
   ],

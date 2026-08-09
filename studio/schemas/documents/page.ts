@@ -1,20 +1,28 @@
 import { defineField, defineType } from 'sanity';
+import { languageLabels, pageTypeLabels, previewParts } from '../../lib/preview';
 
 export const page = defineType({
   name: 'page',
   title: 'Pages / Sayfalar',
   type: 'document',
+  groups: [
+    { name: 'content', title: 'Content / İçerik', default: true },
+    { name: 'meta', title: 'Metadata / Bilgi' },
+    { name: 'seo', title: 'SEO' },
+  ],
   fields: [
     defineField({
       name: 'title',
       title: 'Title / Başlık',
       type: 'string',
+      group: 'content',
       validation: Rule => Rule.required(),
     }),
     defineField({
       name: 'slug',
       title: 'Slug',
       type: 'slug',
+      group: 'content',
       options: { source: 'title', maxLength: 96 },
       validation: Rule => Rule.required(),
     }),
@@ -22,6 +30,7 @@ export const page = defineType({
       name: 'language',
       title: 'Language / Dil',
       type: 'string',
+      group: 'meta',
       options: {
         list: [
           { title: 'Türkçe', value: 'tr' },
@@ -35,11 +44,13 @@ export const page = defineType({
       name: 'translationKey',
       title: 'Translation Group Key',
       type: 'string',
+      group: 'meta',
     }),
     defineField({
       name: 'pageType',
-      title: 'Page Type',
+      title: 'Page Type / Sayfa Türü',
       type: 'string',
+      group: 'meta',
       options: {
         list: [
           { title: 'About / Hakkında', value: 'about' },
@@ -54,11 +65,29 @@ export const page = defineType({
       name: 'body',
       title: 'Body / İçerik',
       type: 'blockContent',
+      group: 'content',
     }),
     defineField({
       name: 'seo',
       title: 'SEO',
       type: 'seo',
+      group: 'seo',
     }),
   ],
+  preview: {
+    select: {
+      title: 'title',
+      pageType: 'pageType',
+      language: 'language',
+    },
+    prepare({ title, pageType, language }) {
+      return {
+        title,
+        subtitle: previewParts([
+          pageTypeLabels[pageType] ?? pageType,
+          languageLabels[language] ?? language,
+        ]),
+      };
+    },
+  },
 });

@@ -25,7 +25,7 @@ export const blockContent = defineType({
         annotations: [
           {
             name: 'link',
-            title: 'Link',
+            title: 'Link / Bağlantı',
             type: 'object',
             fields: [
               defineField({
@@ -36,6 +36,8 @@ export const blockContent = defineType({
               defineField({
                 name: 'openInNewTab',
                 title: 'Open in new tab / Yeni sekmede aç',
+                description:
+                  'Off by default. Enable only when this exact link should open a separate tab.',
                 type: 'boolean',
                 initialValue: false,
               }),

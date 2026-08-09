@@ -1,44 +1,34 @@
 import { defineConfig } from 'sanity';
 import { structureTool } from 'sanity/structure';
 import { visionTool } from '@sanity/vision';
+import { media } from 'sanity-plugin-media';
+import { tableOfContentsPlugin } from 'sanity-plugin-table-of-contents';
+import { poetraTheme } from './studio/poetraTheme';
 import { schemaTypes } from './studio/schemas';
+import { structure, withoutSingletonTemplates } from './studio/structure';
 
 export default defineConfig({
   name: 'poetra',
   title: 'Poetra Studio',
+  theme: poetraTheme,
 
   projectId: 'mcbpzste',
   dataset: 'production',
   basePath: '/studio',
 
   plugins: [
-    structureTool({
-      structure: (S) =>
-        S.list()
-          .title('İçerik')
-          .items([
-            // Pinned singletons: one fixed document for global/home settings.
-            S.listItem()
-              .title('Site Settings / Site Ayarları')
-              .id('siteSettings')
-              .child(
-                S.document().schemaType('siteSettings').documentId('siteSettings'),
-              ),
-            S.listItem()
-              .title('Home Page / Ana Sayfa')
-              .id('homePage')
-              .child(
-                S.document().schemaType('homePage').documentId('homePage'),
-              ),
-            S.divider(),
-            ...S.documentTypeListItems().filter(
-              (item) =>
-                !['homePage', 'siteSettings'].includes(item.getId() ?? ''),
-            ),
-          ]),
+    structureTool({ structure }),
+    media(),
+    tableOfContentsPlugin({
+      fieldNames: ['body', 'notes'],
+      documentTypes: ['page', 'writing', 'poetry'],
     }),
     visionTool(),
   ],
+
+  document: {
+    newDocumentOptions: withoutSingletonTemplates,
+  },
 
   schema: {
     types: schemaTypes,

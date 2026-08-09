@@ -11,18 +11,27 @@ export const homePage = defineType({
   name: 'homePage',
   title: 'Home Page / Ana Sayfa',
   type: 'document',
+  groups: [
+    { name: 'hero', title: 'Hero / Giriş', default: true },
+    { name: 'daily', title: 'Daily Quote / Günün Dizesi' },
+    { name: 'archive', title: 'Archive / Arşiv' },
+    { name: 'works', title: 'Works / Kitap & Müzik' },
+    { name: 'seo', title: 'SEO' },
+  ],
   fields: [
     defineField({
       name: 'heroKicker',
       title: 'Hero Kicker / Üst Etiket',
       description: 'Örn: "Poetra — kişisel bir edebiyat arşivi"',
       type: 'string',
+      group: 'hero',
     }),
     defineField({
       name: 'heroTitle',
       title: 'Hero Title / Başlık',
       description: 'Örn: "Kelimeler için sakin bir mekân."',
       type: 'string',
+      group: 'hero',
     }),
     defineField({
       name: 'heroTitleEmphasis',
@@ -30,12 +39,14 @@ export const homePage = defineType({
       description:
         'Başlığın içinde italik ve bakır renkle vurgulanacak kelime/ifade. Başlıkta birebir geçmelidir (örn: "sakin").',
       type: 'string',
+      group: 'hero',
     }),
     defineField({
       name: 'heroLede',
       title: 'Hero Lede / Giriş Cümlesi',
       type: 'text',
       rows: 3,
+      group: 'hero',
     }),
     defineField({
       name: 'dailyQuotes',
@@ -43,6 +54,7 @@ export const homePage = defineType({
       description:
         'Her gün havuzdan sırayla bir alıntı gösterilir. Satır sonları korunur.',
       type: 'array',
+      group: 'daily',
       of: [
         defineArrayMember({
           type: 'object',
@@ -60,6 +72,12 @@ export const homePage = defineType({
           ],
           preview: {
             select: { title: 'text', subtitle: 'source' },
+            prepare({ title, subtitle }) {
+              return {
+                title: title?.split('\n')[0] || 'Daily quote',
+                subtitle,
+              };
+            },
           },
         }),
       ],
@@ -70,12 +88,14 @@ export const homePage = defineType({
       description:
         'Boş bırakılırsa "Arşivden" bloğu en yeni içerikleri otomatik gösterir.',
       type: 'array',
+      group: 'archive',
       of: [defineArrayMember({ type: 'reference', to: [{ type: 'poetry' }] })],
     }),
     defineField({
       name: 'featuredWritings',
       title: 'Featured Writings / Arşivden — Seçili Yazılar',
       type: 'array',
+      group: 'archive',
       of: [defineArrayMember({ type: 'reference', to: [{ type: 'writing' }] })],
     }),
     defineField({
@@ -83,6 +103,7 @@ export const homePage = defineType({
       title: 'Shelf Heading / Kitap-Müzik Bölüm Başlığı',
       description: 'Örn: "Kitaplar · Müzik"',
       type: 'string',
+      group: 'works',
     }),
     defineField({
       name: 'works',
@@ -90,6 +111,7 @@ export const homePage = defineType({
       description:
         'Boş bırakılırsa mevcut kartlar gösterilir. "Müzik" türündeki kartlar koyu kapakla çizilir. URL verilmeyen kartlar tıklanamaz (örn. not: "Detaylar yakında").',
       type: 'array',
+      group: 'works',
       of: [
         defineArrayMember({
           type: 'object',
@@ -112,12 +134,32 @@ export const homePage = defineType({
             defineField({
               name: 'openInNewTab',
               title: 'Open in new tab / Yeni sekmede aç',
+              description:
+                'Off by default. Enable only when this work card should open a separate tab.',
               type: 'boolean',
               initialValue: false,
             }),
           ],
           preview: {
-            select: { title: 'title', subtitle: 'kind' },
+            select: {
+              title: 'title',
+              kind: 'kind',
+              note: 'note',
+              url: 'url',
+              openInNewTab: 'openInNewTab',
+            },
+            prepare({ title, kind, note, url, openInNewTab }) {
+              return {
+                title,
+                subtitle: [
+                  kind,
+                  note,
+                  url ? (openInNewTab ? 'New tab' : 'Same tab') : 'No link',
+                ]
+                  .filter(Boolean)
+                  .join(' · '),
+              };
+            },
           },
         }),
       ],
@@ -126,6 +168,7 @@ export const homePage = defineType({
       name: 'seo',
       title: 'SEO',
       type: 'seo',
+      group: 'seo',
     }),
   ],
   preview: {
