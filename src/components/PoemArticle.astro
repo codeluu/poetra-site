@@ -5,6 +5,7 @@
  * (offset shadow + 0.35° tilt) and the vermilion seal — nothing else.
  * The poem body is static: never revealed, never animated (§6).
  */
+import { portableTextToHtml } from '../lib/portableText';
 import { formatDate, languageLabel } from '../lib/format';
 import type { ContentDocument } from '../lib/sanity';
 
@@ -16,6 +17,7 @@ type Props = {
 const { poem, bodyHtml } = Astro.props;
 const contentLang = poem.originalLanguage === 'en' ? 'en' : 'tr';
 const tags = poem.tags ?? [];
+const notesHtml = portableTextToHtml(poem.notes);
 ---
 
 <article class="poem-page">
@@ -30,6 +32,13 @@ const tags = poem.tags ?? [];
       <span class="poem-seal-glyph">P</span>
     </div>
   </div>
+
+  {notesHtml && (
+    <aside class="poem-about" aria-labelledby="poem-about-title">
+      <h2 id="poem-about-title" class="kicker">Bu şiir hakkında</h2>
+      <div class="poem-about-body" set:html={notesHtml} />
+    </aside>
+  )}
 
   <dl class="kunye">
     <div>

@@ -93,7 +93,8 @@ export const poetry = defineType({
     }),
     defineField({
       name: 'notes',
-      title: 'Artist Notes / Sanatçı Notları',
+      title: 'About This Poem / Bu Şiir Hakkında',
+      description: 'Şiirin hikâyesi, yazım süreci veya tarihine ilişkin notlar. Şiir sayfasında künyenin üstündeki ayrı kâğıt kutuda gösterilir.',
       type: 'blockContent',
       group: 'content',
     }),

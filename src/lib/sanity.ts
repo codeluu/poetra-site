@@ -44,6 +44,7 @@ export type ContentSummary = {
 
 export type ContentDocument = ContentSummary & {
   body?: PortableTextBlock[];
+  notes?: PortableTextBlock[];
   pageType?: string;
 };
 

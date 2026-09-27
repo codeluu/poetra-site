@@ -35,7 +35,7 @@
   /* ---- Layout ---- */
   --page-width: 1120px;   /* outer content max-width */
   --reading-width: 680px; /* long-form prose (writings, about) measure */
-  --poem-measure: 42ch;   /* poem body measure */
+  --poem-measure: 42ch;   /* notes and metadata reading measure */
 
   /* ---- Spacing scale (8px base) ---- */
   --space-1: 0.5rem;
@@ -797,7 +797,7 @@ a.work-card:hover {
 /* ---------- Poem detail (D2 sheet — craft devices: sheet + seal only) ---------- */
 
 .poem-page {
-  max-width: var(--page-width);
+  max-width: 100%;
   margin: 0 auto;
   padding: var(--space-6) var(--space-3) var(--space-7);
 }
@@ -819,8 +819,8 @@ a.work-card:hover {
 .poem-sheet {
   display: flex;
   flex-direction: column;
-  width: fit-content;
-  max-width: min(100%, calc(var(--poem-measure) + 2 * var(--space-5)));
+  width: max-content;
+  max-width: 100%;
   margin: var(--space-5) auto 0;
   padding: var(--space-5) clamp(var(--space-3), 6vw, var(--space-5));
   border: 1px solid var(--line);
@@ -832,7 +832,9 @@ a.work-card:hover {
 
 /* Poem body: reading serif, structural line breaks, always static. */
 .poem-body {
-  max-width: var(--poem-measure);
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   color: var(--ink-secondary);
   font-family: var(--font-reading);
   font-size: 19px;
@@ -885,6 +887,28 @@ a.work-card:hover {
   line-height: 1;
   transform: translateY(-2px);
 }
+
+/* Editorial notes stay separate from the poem and do not set its width. */
+.poem-about {
+  max-width: min(100%, calc(var(--poem-measure) + 2 * var(--space-5)));
+  margin: var(--space-5) auto 0;
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--sheet);
+  box-shadow: 3px 4px 0 rgba(84, 66, 32, 0.07);
+}
+
+.poem-about-body {
+  margin-top: var(--space-2);
+  font-family: var(--font-reading);
+  font-size: 17px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.poem-about-body > :first-child { margin-top: 0; }
+.poem-about-body > :last-child { margin-bottom: 0; }
 
 /* Künye plate (D3 museum label) */
 .kunye {
