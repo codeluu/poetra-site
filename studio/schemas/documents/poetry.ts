@@ -93,9 +93,16 @@ export const poetry = defineType({
     }),
     defineField({
       name: 'notes',
-      title: 'About This Poem / Bu Şiir Hakkında',
+      title: 'Poet’s Note / Şairin Notu',
       description: 'Şiirin hikâyesi, yazım süreci veya tarihine ilişkin notlar. Şiir sayfasında künyenin üstündeki ayrı kâğıt kutuda gösterilir.',
       type: 'blockContent',
+      group: 'content',
+    }),
+    defineField({
+      name: 'footnoteVideo',
+      title: 'Artist’s Footnote / Sanatçının Dipnotu',
+      description: 'Şairin Notu kutusunda çerçeveli oynatıcı olarak gösterilecek YouTube videosu.',
+      type: 'youtubeEmbed',
       group: 'content',
     }),
     defineField({

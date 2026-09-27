@@ -45,6 +45,7 @@ export type ContentSummary = {
 export type ContentDocument = ContentSummary & {
   body?: PortableTextBlock[];
   notes?: PortableTextBlock[];
+  footnoteVideo?: YouTubeEmbedBlock;
   pageType?: string;
 };
 

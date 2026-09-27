@@ -910,6 +910,10 @@ a.work-card:hover {
 .poem-about-body > :first-child { margin-top: 0; }
 .poem-about-body > :last-child { margin-bottom: 0; }
 
+.poem-about-empty { color: var(--meta); margin-bottom: 0; }
+.poem-footnote { margin-top: var(--space-4); padding-top: var(--space-3); border-top: 1px solid var(--line); }
+.poem-footnote .youtube-embed { margin: var(--space-2) 0 0; }
+
 /* Künye plate (D3 museum label) */
 .kunye {
   max-width: min(100%, calc(var(--poem-measure) + 2 * var(--space-5)));

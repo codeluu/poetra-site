@@ -5,6 +5,7 @@
  * (offset shadow + 0.35° tilt) and the vermilion seal — nothing else.
  * The poem body is static: never revealed, never animated (§6).
  */
+import YouTubeEmbed from './content/YouTubeEmbed.astro';
 import { portableTextToHtml } from '../lib/portableText';
 import { formatDate, languageLabel } from '../lib/format';
 import type { ContentDocument } from '../lib/sanity';
@@ -33,12 +34,20 @@ const notesHtml = portableTextToHtml(poem.notes);
     </div>
   </div>
 
-  {notesHtml && (
-    <aside class="poem-about" aria-labelledby="poem-about-title">
-      <h2 id="poem-about-title" class="kicker">Bu şiir hakkında</h2>
+  <aside class="poem-about" aria-labelledby="poem-about-title">
+    <h2 id="poem-about-title" class="kicker">Şairin Notu</h2>
+    {notesHtml ? (
       <div class="poem-about-body" set:html={notesHtml} />
-    </aside>
-  )}
+    ) : (
+      <p class="poem-about-body poem-about-empty">Henüz bir not eklenmedi.</p>
+    )}
+    {poem.footnoteVideo?.url && (
+      <section class="poem-footnote" aria-labelledby="poem-footnote-title">
+        <h3 id="poem-footnote-title" class="kicker">Sanatçının Dipnotu</h3>
+        <YouTubeEmbed {...poem.footnoteVideo} displayStyle="minimal" />
+      </section>
+    )}
+  </aside>
 
   <dl class="kunye">
     <div>
