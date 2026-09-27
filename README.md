@@ -41,3 +41,16 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Günün Dizesi
+
+`python3 scripts/import-quotes.py` komutu kökteki Notion CSV dosyasını okur,
+`Quotes/` içindeki Markdown kayıtlarını metin, yazar ve tarih açısından doğrular.
+Tüm kayıtlar `src/data/quotes.json`, klasördeki kişisel seçki ise
+`src/data/daily-quotes.json` dosyasına yazılır. JSON dosyalarını elle düzenlemek
+yerine kaynak dosyaları güncelleyip aktarımı yeniden çalıştırın.
+
+Ana sayfa kişisel seçkiyi kullanır; bu bölüm için Sanity `dailyQuotes` ayarı
+kullanılmaz. Tarihler özgün yazım tarihleridir. Eksik tarihlere tarih eklenmez.
+Dize Türkiye saatine göre her gün değişir. Tarayıcı betiği statik yayında da
+seçimi günceller; JavaScript kapalıysa son derlemenin dizesi görünür.

@@ -1,46 +1,48 @@
 ---
-/**
- * DailyQuote — shows one quote per day, picked deterministically at build
- * time. Quotes come from the Sanity "Ana Sayfa" (homePage) settings when
- * provided; otherwise the built-in fallback pool below keeps the block
- * rendering (site must build even with empty settings). No persistence,
- * no client rotation.
- */
-import type { DailyQuoteItem } from '../lib/sanity';
+import { quoteForDay, quoteDate } from '../lib/dailyQuote';
 
-type Props = {
-  quotes?: DailyQuoteItem[];
-};
-
-const fallbackQuotes: DailyQuoteItem[] = [
-  {
-    text: 'Kelimeler sustuğunda,\nmürekkep konuşmayı sürdürür.',
-    source: 'Defterden',
-    date: '2025',
-  },
-  {
-    text: 'Her şiir, görünmeyene\naçılan dar bir kapıdır.',
-    source: 'Defterden',
-    date: '2024',
-  },
-  {
-    text: 'Kâğıt sabırlıdır;\nacele eden benim.',
-    source: 'Defterden',
-    date: '2025',
-  },
-];
-
-const { quotes } = Astro.props;
-const pool = quotes?.length ? quotes : fallbackQuotes;
-const dayIndex = Math.floor(Date.now() / 86_400_000) % pool.length;
-const quote = pool[dayIndex];
-const attribution = [quote.source, quote.date].filter(Boolean).join(' · ');
+// Render a complete quote for no-JS clients; refresh in the browser so static
+// deployments keep changing daily without requiring another build.
+const quote = quoteForDay();
 ---
 
 <section class="section">
-  <figure class="daily-quote reveal">
+  <figure class="daily-quote reveal" data-daily-quote>
     <p class="kicker">Günün Dizesi</p>
     <blockquote class="daily-quote-text">{quote.text}</blockquote>
-    {attribution && <figcaption class="daily-quote-source">{attribution}</figcaption>}
+    <figcaption class="daily-quote-source">
+      <span data-quote-author>{quote.author}</span>
+      <span data-quote-source hidden={!quote.source}>{quote.source ? ` · ${quote.source}` : ''}</span>
+      <span data-quote-date hidden={!quote.date}>
+        {' · '}<time datetime={quote.date}>{quoteDate(quote.date)}</time>
+      </span>
+    </figcaption>
   </figure>
 </section>
+
+<script>
+  import { quoteForDay, quoteDate } from '../lib/dailyQuote';
+
+  function updateQuote() {
+    const quote = quoteForDay();
+    for (const figure of document.querySelectorAll<HTMLElement>('[data-daily-quote]')) {
+      figure.querySelector('.daily-quote-text')!.textContent = quote.text;
+      figure.querySelector('[data-quote-author]')!.textContent = quote.author;
+      const source = figure.querySelector<HTMLElement>('[data-quote-source]')!;
+      source.hidden = !quote.source;
+      source.textContent = quote.source ? ` · ${quote.source}` : '';
+      figure.querySelector<HTMLElement>('[data-quote-date]')!.hidden = !quote.date;
+      const time = figure.querySelector('time')!;
+      time.dateTime = quote.date;
+      time.textContent = quoteDate(quote.date);
+    }
+  }
+
+  updateQuote();
+  document.addEventListener('astro:page-load', updateQuote);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) updateQuote();
+  });
+  // Also refresh a page left open across midnight (within one minute).
+  window.setInterval(updateQuote, 60_000);
+</script>

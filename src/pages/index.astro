@@ -19,7 +19,6 @@ const home = await sanityClient.fetch<HomePageSettings | null>(`
     heroTitle,
     heroTitleEmphasis,
     heroLede,
-    dailyQuotes[]{ text, source, date },
     "featured": [
       ...coalesce(featuredPoems[]->{
         _id, _type, title, slug, originalLanguage, publishedAt
@@ -139,7 +138,7 @@ const pageDescription =
     </div>
   </section>
 
-  <DailyQuote quotes={home?.dailyQuotes} />
+  <DailyQuote />
 
   <section class="section">
     <div class="shelf-head reveal">

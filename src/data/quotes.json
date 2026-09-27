@@ -1,0 +1,6473 @@
+[
+  {
+    "id": "1",
+    "text": "Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy.",
+    "author": "Thich Nhat Hanh",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "2",
+    "text": "Courage means to keep working on a relationship, to continue seeking solutions to difficult problems, and to stay focused during stressful periods.",
+    "author": "Denis Waitley",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "3",
+    "text": "A wise man proportions his belief to the evidence.",
+    "author": "David Hume",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "4",
+    "text": "The giving of love is an education in itself",
+    "author": "Eleanor Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "5",
+    "text": "Count your age by friends, not years. Count your life by smiles, not tears.",
+    "author": "John Lennon",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "6",
+    "text": "The true secret of happiness lies in taking a genuine interest in all the details of daily life.",
+    "author": "William Morris",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "7",
+    "text": "We could never learn to be brave and patient if there were only joy in the world.",
+    "author": "Helen Keller",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "8",
+    "text": "Go confidently in the direction of your dreams. Live the life you have imagined",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "9",
+    "text": "Happiness is a state of mind. It’s just according to the way you look at things.",
+    "author": "Walt Disney",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "10",
+    "text": "You cannot swim for new horizons until you have courage to lose sight of the shore.",
+    "author": "William Faulkner",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "11",
+    "text": "Happiness is the highest good.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "12",
+    "text": "Happiness grows at our own firesides, and is not to be picked in strangers’ gardens.",
+    "author": "Douglas Jerrold",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "13",
+    "text": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "14",
+    "text": "He that composes himself is wiser than he that composes a book.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "15",
+    "text": "Love is when he gives you a piece of your soul, that you never knew was missing",
+    "author": "Torquato Tasso",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "16",
+    "text": "It is more fitting for a man to laugh at life than to lament over it.",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "17",
+    "text": "Love is not about possession. Love is about appreciation",
+    "author": "Osho",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "18",
+    "text": "Love cures people – both the ones who give it and the ones who receive it",
+    "author": "Karl A. Menninger",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "19",
+    "text": "There is only one happiness in this life, to love and be loved.",
+    "author": "George Sand",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "20",
+    "text": "A wise man never loses anything if he has himself.",
+    "author": "Michel de Montaigne",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "21",
+    "text": "Common sense in an uncommon degree is what the world calls wisdom.",
+    "author": "Samuel Taylor Coleridge",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "22",
+    "text": "The best way out is always through",
+    "author": "Robert Frost",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "23",
+    "text": "Don’t judge each day by the harvest you reap but by the seeds that you plant",
+    "author": "Robert Louis Stevenson",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "24",
+    "text": "Without courage, wisdom bears no fruit.",
+    "author": "Baltasar Gracián",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "25",
+    "text": "The desire for safety stands against every great and noble enterprise.",
+    "author": "Tacitus",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "26",
+    "text": "Love is the greatest refreshment in life",
+    "author": "Pablo Picasso",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "27",
+    "text": "If you want to fly, give up everything that weighs you down",
+    "author": "Buddha",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "28",
+    "text": "Have the courage to be disliked.",
+    "author": "Ichiro Kishimi",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "29",
+    "text": "Love is an untamed force. When we try to control it, it destroys us",
+    "author": "Paulo Coelho",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "30",
+    "text": "Patience is the companion of wisdom.",
+    "author": "Saint Augustine",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "31",
+    "text": "Whoever is happy will make others happy too.",
+    "author": "Anne Frank",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "32",
+    "text": "Happiness is a state of activity.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "33",
+    "text": "A happy soul is the best shield for a cruel world.",
+    "author": "Atticus",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "34",
+    "text": "To love someone is to see a miracle invisible to others",
+    "author": "Francois Mauriac",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "35",
+    "text": "What would life be if we had no courage to attempt anything",
+    "author": "Vincent Van Gogh",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "36",
+    "text": "Love is that condition in which the happiness of another person is essential to your own",
+    "author": "Robert A. Heinlein",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "37",
+    "text": "Wonder is the beginning of wisdom.",
+    "author": "Greek Proverb",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "38",
+    "text": "The pleasure which we most rarely experience gives us greatest delight.",
+    "author": "Epictetus",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "39",
+    "text": "Be kind whenever possible. It is always possible.",
+    "author": "Dalai Lama",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "40",
+    "text": "One person with courage makes a majority.",
+    "author": "Thomas Jefferson",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "41",
+    "text": "Courage is the price that life exacts for granting peace.",
+    "author": "Amelia Earhart",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "42",
+    "text": "The harder the conflict, the greater the triumph",
+    "author": "George Washington",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "43",
+    "text": "Love is what you've been through with somebody",
+    "author": "James Thurber",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "44",
+    "text": "It takes courage to grow up and become who you really are.",
+    "author": "E.E. Cummings",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "45",
+    "text": "Real courage is when you know you're licked before you begin, but you begin anyway and see it through no matter what.",
+    "author": "Harper Lee",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "46",
+    "text": "Success comes from having dreams that are bigger than your fears.",
+    "author": "Bobby Unser",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "47",
+    "text": "You can choose courage, or you can choose comfort, but you cannot choose both.",
+    "author": "Brené Brown",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "48",
+    "text": "Don’t cry because it’s over, smile because it happened.",
+    "author": "Dr. Seuss",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "49",
+    "text": "To acquire knowledge, one must study; but to acquire wisdom, one must observe.",
+    "author": "Marilyn vos Savant",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "50",
+    "text": "If you are not willing to risk the usual, you will have to settle for the ordinary.",
+    "author": "Jim Rohn",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "51",
+    "text": "Success is not to be pursued; it is to be attracted by the person you become.",
+    "author": "Jim Rohn",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "52",
+    "text": "A life lived in love will never be dull",
+    "author": "Leo Buscaglia",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "53",
+    "text": "Love is like a beautiful flower which I may not touch, but whose fragrance makes the garden a place of delight just the same",
+    "author": "Helen Keller",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "54",
+    "text": "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
+    "author": "David Brinkley",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "55",
+    "text": "Never mistake knowledge for wisdom. One helps you make a living; the other helps you make a life.",
+    "author": "Sandra Carey",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "56",
+    "text": "We must dare to be great; and we must realize that greatness is the fruit of toil and sacrifice and high courage.",
+    "author": "Theodore Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "57",
+    "text": "The more difficult the victory, the greater the happiness in winning",
+    "author": "Pele",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "58",
+    "text": "It always seems impossible until it’s done",
+    "author": "Nelson Mandela",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "59",
+    "text": "The way of a fool is right in his own eyes, but a wise man listens to counsel.",
+    "author": "Proverbs 12:15",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "60",
+    "text": "Love doesn't just sit there, like a stone, it has to be made, like bread; remade all the time, made new",
+    "author": "Ursula K. Le Guin",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "61",
+    "text": "The road to success and the road to failure are almost exactly the same.",
+    "author": "Colin R. Davis",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "62",
+    "text": "Strive not to be a success, but rather to be of value.",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "63",
+    "text": "We must build dikes of courage to hold back the flood of fear.",
+    "author": "Martin Luther King Jr.",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "64",
+    "text": "Love begins at home, and it is not how much we do... but how much love we put in that action",
+    "author": "Mother Teresa",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "65",
+    "text": "I learned that courage was not the absence of fear, but the triumph over it.",
+    "author": "Nelson Mandela",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "66",
+    "text": "Love is a great master. It teaches us to be what we never were",
+    "author": "Molière",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "67",
+    "text": "Fortune favors the bold.",
+    "author": "Virgil",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "68",
+    "text": "Love is the whole thing. We are only pieces",
+    "author": "Rumi",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "69",
+    "text": "Cowards die many times before their deaths; the valiant never taste of death but once.",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "70",
+    "text": "Action is the foundational key to all success",
+    "author": "Pablo Picasso",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "71",
+    "text": "He that respects himself is safe from others; he wears a coat of mail that none can pierce.",
+    "author": "Henry Wadsworth Longfellow",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "72",
+    "text": "Your success and happiness lie in you.",
+    "author": "Helen Keller",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "73",
+    "text": "Happiness consists more in conveniences of pleasure that occur every day than in great pieces of good fortune that happen but seldom.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "74",
+    "text": "Courage is found in unlikely places.",
+    "author": "J.R.R. Tolkien",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "75",
+    "text": "There is some kind of a sweet innocence in being human—in not having to be just happy or just sad—in the nature of being able to be both broken and whole, at the same time.",
+    "author": "C. JoyBell C.",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "76",
+    "text": "Where there is great love, there are always miracles",
+    "author": "Willa Cather",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "77",
+    "text": "If you hear a voice within you say 'you cannot paint,' then by all means paint and that voice will be silenced",
+    "author": "Vincent Van Gogh",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "78",
+    "text": "If you want something you’ve never had, you must be willing to do something you’ve never done",
+    "author": "Thomas Jefferson",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "79",
+    "text": "We are made wise not by the recollection of our past, but by the responsibility for our future.",
+    "author": "George Bernard Shaw",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "80",
+    "text": "We do not receive wisdom, we must discover it for ourselves.",
+    "author": "Marcel Proust",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "81",
+    "text": "Wise men don't need advice. Fools won't take it.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "82",
+    "text": "Happiness is holding someone in your arms and knowing you hold the whole world.",
+    "author": "Orhan Pamuk",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "83",
+    "text": "Patience, persistence and perspiration make an unbeatable combination for success.",
+    "author": "Napoleon Hill",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "84",
+    "text": "The best revenge is massive success",
+    "author": "Frank Sinatra",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "85",
+    "text": "The only thing we have to fear is fear itself.",
+    "author": "Franklin D. Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "86",
+    "text": "Wisdom is not a product of schooling but of the lifelong attempt to acquire it.",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "87",
+    "text": "Leap and the net will appear.",
+    "author": "John Burroughs",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "88",
+    "text": "The greatest happiness is to know the source of unhappiness.",
+    "author": "Fyodor Dostoevsky",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "89",
+    "text": "We must embrace pain and burn it as fuel for our journey",
+    "author": "Kenji Miyazawa",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "90",
+    "text": "Love is an act of endless forgiveness",
+    "author": "Peter Ustinov",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "91",
+    "text": "Happiness lies in the joy of achievement and the thrill of creative effort.",
+    "author": "Franklin D. Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "92",
+    "text": "Courage is grace under pressure.",
+    "author": "Ernest Hemingway",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "93",
+    "text": "The art of being wise is knowing what to overlook.",
+    "author": "William James",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "94",
+    "text": "If you are not afraid of dying, there is nothing you cannot achieve.",
+    "author": "Lao Tzu",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "95",
+    "text": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "96",
+    "text": "A loving heart is the truest wisdom",
+    "author": "Charles Dickens",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "97",
+    "text": "Success is simple. Do what’s right, the right way, at the right time.",
+    "author": "Arnold H. Glasow",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "98",
+    "text": "What you get by achieving your goals is not as important as what you become by achieving your goals",
+    "author": "Zig Ziglar",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "99",
+    "text": "Hardships often prepare ordinary people for an extraordinary destiny",
+    "author": "C.S. Lewis",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "100",
+    "text": "Man is wise and constantly in quest of more wisdom.",
+    "author": "Mahatma Gandhi",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "101",
+    "text": "Love is the strongest force the world possesses, and yet it is the humblest imaginable",
+    "author": "Mahatma Gandhi",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "102",
+    "text": "Success is a journey, not a destination. The doing is often more important than the outcome.",
+    "author": "Arthur Ashe",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "103",
+    "text": "Your time is limited, so don’t waste it living someone else’s life",
+    "author": "Steve Jobs",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "104",
+    "text": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack in will.",
+    "author": "Vince Lombardi",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "105",
+    "text": "The doorstep to the temple of wisdom is a knowledge of our own ignorance.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "106",
+    "text": "Only those who will risk going too far can possibly find out how far one can go.",
+    "author": "T.S. Eliot",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "107",
+    "text": "Don't wait. The time will never be just right",
+    "author": "Napoleon Hill",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "108",
+    "text": "Motivation is what gets you started. Habit is what keeps you going",
+    "author": "Jim Rohn",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "109",
+    "text": "Life without love is like a tree without blossoms or fruit",
+    "author": "Khalil Gibran",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "110",
+    "text": "The successful person makes a habit of doing what the failing person doesn’t like to do.",
+    "author": "Thomas Edison",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "111",
+    "text": "Love all, trust a few, do wrong to none",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "112",
+    "text": "To love is to burn, to be on fire",
+    "author": "Jane Austen",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "113",
+    "text": "Love makes your soul crawl out from its hiding place",
+    "author": "Zora Neale Hurston",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "114",
+    "text": "If opportunity doesn’t knock, build a door",
+    "author": "Milton Berle",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "115",
+    "text": "People rarely succeed unless they have fun in what they are doing.",
+    "author": "Dale Carnegie",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "116",
+    "text": "You must do the thing you think you cannot do.",
+    "author": "Eleanor Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "117",
+    "text": "A fool sees not the same tree that a wise man sees.",
+    "author": "William Blake",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "118",
+    "text": "The greatest happiness of life is the conviction that we are loved",
+    "author": "Victor Hugo",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "119",
+    "text": "Love is not love which alters when it alteration finds",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "120",
+    "text": "Love is the beauty of the soul",
+    "author": "Saint Augustine",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "121",
+    "text": "It does not matter how slowly you go as long as you do not stop",
+    "author": "Confucius",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "122",
+    "text": "Love is a game that two can play and both win",
+    "author": "Eva Gabor",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "123",
+    "text": "Failure will never overtake me if my determination to succeed is strong enough",
+    "author": "Og Mandino",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "124",
+    "text": "The best proof of love is trust",
+    "author": "Joyce Brothers",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "125",
+    "text": "Judge your success by what you had to give up in order to get it.",
+    "author": "Dalai Lama",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "126",
+    "text": "Do not wait to strike till the iron is hot; but make it hot by striking",
+    "author": "William Butler Yeats",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "127",
+    "text": "Be happy for this moment. This moment is your life.",
+    "author": "Omar Khayyam",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "128",
+    "text": "If you can dream it, you can do it",
+    "author": "Walt Disney",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "129",
+    "text": "The only way to find true happiness is to risk being completely cut open.",
+    "author": "Chuck Palahniuk",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "130",
+    "text": "Courage is being scared to death but saddling up anyway.",
+    "author": "John Wayne",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "131",
+    "text": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "132",
+    "text": "All human wisdom is summed up in two words: wait and hope.",
+    "author": "Alexandre Dumas",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "133",
+    "text": "Happiness is found in doing, not merely possessing.",
+    "author": "Napoleon Hill",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "134",
+    "text": "When something is important enough, you do it even if the odds are not in your favor",
+    "author": "Elon Musk",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "135",
+    "text": "Success doesn’t come from what you do occasionally, it comes from what you do consistently.",
+    "author": "Marie Forleo",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "136",
+    "text": "Knowledge comes, but wisdom lingers.",
+    "author": "Alfred Lord Tennyson",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "137",
+    "text": "The more sand has escaped from the hourglass of our life, the clearer we should see through it.",
+    "author": "Jean-Paul Sartre",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "138",
+    "text": "The art of being wise is the art of knowing what to overlook.",
+    "author": "William James",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "139",
+    "text": "The wisest mind has something yet to learn.",
+    "author": "George Santayana",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "140",
+    "text": "True happiness is not attained through self-gratification, but through fidelity to a worthy purpose.",
+    "author": "Helen Keller",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "141",
+    "text": "Don’t count the days, make the days count.",
+    "author": "Muhammad Ali",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "142",
+    "text": "The only fence against the world is a thorough knowledge of it.",
+    "author": "John Locke",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "143",
+    "text": "Love is the only gold",
+    "author": "Alfred Lord Tennyson",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "144",
+    "text": "It is not the man who has too little, but the man who craves more, that is poor.",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "145",
+    "text": "A great obstacle to happiness is to expect too much happiness.",
+    "author": "Bernard de Fontenelle",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "146",
+    "text": "The young man knows the rules, but the old man knows the exceptions.",
+    "author": "Oliver Wendell Holmes",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "147",
+    "text": "What’s money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do.",
+    "author": "Bob Dylan",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "148",
+    "text": "People who are crazy enough to think they can change the world are the ones who do",
+    "author": "Rob Siltanen",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "149",
+    "text": "Love is the voice under all silences, the hope which has no opposite in fear",
+    "author": "e.e. cummings",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "150",
+    "text": "Faced with what is right, to leave it undone shows a lack of courage.",
+    "author": "Confucius",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "151",
+    "text": "Love is like the wind, you can't see it but you can feel it",
+    "author": "Nicholas Sparks",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "152",
+    "text": "If you want to be successful, find out what the price is and then pay it.",
+    "author": "Scott Adam",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "153",
+    "text": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "154",
+    "text": "We can know only that we know nothing. And that is the highest degree of human wisdom.",
+    "author": "Leo Tolstoy",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "155",
+    "text": "Difficulties in life are intended to make us better, not bitter",
+    "author": "Dan Reeves",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "156",
+    "text": "The key to being happy is knowing you have the power to choose what to accept and what to let go.",
+    "author": "Dodinsky",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "157",
+    "text": "Happiness can exist only in acceptance.",
+    "author": "George Orwell",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "158",
+    "text": "Life is 10% what happens to us and 90% how we react to it",
+    "author": "Charles R. Swindoll",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "159",
+    "text": "Wisdom is not wisdom when it is derived from books alone.",
+    "author": "Horace",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "160",
+    "text": "The best thing to hold onto in life is each other",
+    "author": "Audrey Hepburn",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "161",
+    "text": "It takes as much courage to have tried and failed as it does to have tried and succeeded.",
+    "author": "Anne Morrow Lindbergh",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "162",
+    "text": "One man with courage makes a majority.",
+    "author": "Andrew Jackson",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "163",
+    "text": "Great things are done by a series of small things brought together",
+    "author": "Vincent Van Gogh",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "164",
+    "text": "You yourself, as much as anybody in the entire universe, deserve your love and affection",
+    "author": "Buddha",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "165",
+    "text": "Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.",
+    "author": "Dale Carnegie",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "166",
+    "text": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "167",
+    "text": "Happiness is the interval between periods of unhappiness.",
+    "author": "Don Marquis",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "168",
+    "text": "By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.",
+    "author": "Confucius",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "169",
+    "text": "Love is the expansion of two natures in such fashion that each include the other",
+    "author": "Felix Adler",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "170",
+    "text": "The real test is not whether you avoid this failure, because you won’t. It’s whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere.",
+    "author": "Barack Obama",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "171",
+    "text": "Opportunities don't happen, you create them",
+    "author": "Chris Grosser",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "172",
+    "text": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can’t achieve it",
+    "author": "Jordan Belfort",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "173",
+    "text": "The only limit to our realization of tomorrow is our doubts of today",
+    "author": "Franklin D. Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "174",
+    "text": "Love isn't something you find. Love is something that finds you",
+    "author": "Loretta Young",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "175",
+    "text": "For every minute you are angry you lose sixty seconds of happiness.",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "176",
+    "text": "You cannot protect yourself from sadness without protecting yourself from happiness.",
+    "author": "Jonathan Safran Foer",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "177",
+    "text": "Success is not measured by what you accomplish, but by the opposition you have encountered and the courage with which you have maintained the struggle against overwhelming odds.",
+    "author": "Orison Swett Marden",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "178",
+    "text": "The secret of happiness is freedom, and the secret of freedom is courage.",
+    "author": "Thucydides",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "179",
+    "text": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "180",
+    "text": "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face.",
+    "author": "Eleanor Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "181",
+    "text": "Happiness is not something ready-made. It comes from your own actions.",
+    "author": "Dalai Lama",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "182",
+    "text": "Success is the progressive realization of a worthy goal or ideal.",
+    "author": "Earl Nightingale",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "183",
+    "text": "Be brave. Take risks. Nothing can substitute experience.",
+    "author": "Paulo Coelho",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "184",
+    "text": "Failure is the condiment that gives success its flavor.",
+    "author": "Truman Capote",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "185",
+    "text": "Love in its essence is spiritual fire",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "186",
+    "text": "Happiness is a direction, not a place.",
+    "author": "Sydney J. Harris",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "187",
+    "text": "All our dreams can come true if we have the courage to pursue them.",
+    "author": "Walt Disney",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "188",
+    "text": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "189",
+    "text": "The best way to cheer yourself is to try to cheer someone else up.",
+    "author": "Mark Twain",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "190",
+    "text": "We all live with the objective of being happy; our lives are all different and yet the same.",
+    "author": "Anne Frank",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "191",
+    "text": "Love is the bridge between you and everything",
+    "author": "Rumi",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "192",
+    "text": "Learning without reflection is a waste. Reflection without learning is dangerous.",
+    "author": "Confucius",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "193",
+    "text": "Behind every successful man there’s a lot of unsuccessful years.",
+    "author": "Bob Brown",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "194",
+    "text": "The more I want to get something done, the less I call it work",
+    "author": "Richard Bach",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "195",
+    "text": "Success means doing the best we can with what we have.",
+    "author": "Zig Ziglar",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "196",
+    "text": "Don’t be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "197",
+    "text": "Happiness is a butterfly, which when pursued, is always just beyond your grasp, but which, if you will sit down quietly, may alight upon you.",
+    "author": "Nathaniel Hawthorne",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "198",
+    "text": "We are most alive when we're in love",
+    "author": "John Updike",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "199",
+    "text": "The only person you are destined to become is the person you decide to be",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "200",
+    "text": "I never dreamed about success. I worked for it.",
+    "author": "Estée Lauder",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "201",
+    "text": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'",
+    "author": "Mary Anne Radmacher",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "202",
+    "text": "Courage is the first of human qualities because it is the quality which guarantees the others.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "203",
+    "text": "If you want others to be happy, practice compassion. If you want to be happy, practice compassion.",
+    "author": "Dalai Lama",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "204",
+    "text": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage",
+    "author": "Lao Tzu",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "205",
+    "text": "I am not afraid of storms, for I am learning how to sail my ship",
+    "author": "Louisa May Alcott",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "206",
+    "text": "Love is a better teacher than duty",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "207",
+    "text": "Love is a canvas furnished by nature and embroidered by imagination",
+    "author": "Voltaire",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "208",
+    "text": "The most courageous act is still to think for yourself. Aloud.",
+    "author": "Coco Chanel",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "209",
+    "text": "The older I grow, the more I distrust the familiar doctrine that age brings wisdom.",
+    "author": "H.L. Mencken",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "210",
+    "text": "The man who moves a mountain begins by carrying away small stones",
+    "author": "Confucius",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "211",
+    "text": "Courage is not the absence of despair; it is, rather, the capacity to move ahead in spite of despair.",
+    "author": "Rollo May",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "212",
+    "text": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "213",
+    "text": "Boldness be my friend.",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "214",
+    "text": "Fall seven times, stand up eight",
+    "author": "Japanese Proverb",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "215",
+    "text": "Aim for the moon. If you miss, you may hit a star",
+    "author": "W. Clement Stone",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "216",
+    "text": "Everything you’ve ever wanted is on the other side of fear",
+    "author": "George Addair",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "217",
+    "text": "Happiness is a warm puppy.",
+    "author": "Charles M. Schulz",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "218",
+    "text": "The wise man does at once what the fool does finally.",
+    "author": "Niccolò Machiavelli",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "219",
+    "text": "Love recognizes no barriers",
+    "author": "Maya Angelou",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "220",
+    "text": "He who is not courageous enough to take risks will accomplish nothing in life.",
+    "author": "Muhammad Ali",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "221",
+    "text": "I’ve failed over and over and over again in my life, and that is why I succeed.",
+    "author": "Michael Jordan",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "222",
+    "text": "Happiness is only real when shared.",
+    "author": "Jon Krakauer",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "223",
+    "text": "The doorstep to the temple of wisdom is a knowledge of our own ignorance.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "224",
+    "text": "You always gain by giving love",
+    "author": "Reese Witherspoon",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "225",
+    "text": "It is not what you look at that matters, it is what you see.",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "226",
+    "text": "Love and compassion are necessities, not luxuries. Without them, humanity cannot survive",
+    "author": "Dalai Lama",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "227",
+    "text": "Happiness is the meaning and the purpose of life, the whole aim and end of human existence.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "228",
+    "text": "Love is a two-way street constantly under construction",
+    "author": "Carroll Bryant",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "229",
+    "text": "Love is the poetry of the senses",
+    "author": "Honore de Balzac",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "230",
+    "text": "Success does not consist in never making mistakes but in never making the same one a second time.",
+    "author": "George Bernard Shaw",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "231",
+    "text": "Courage is resistance to fear, mastery of fear – not absence of fear.",
+    "author": "Mark Twain",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "232",
+    "text": "He who knows others is wise; he who knows himself is enlightened.",
+    "author": "Lao Tzu",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "233",
+    "text": "Wise men learn more from fools than fools from the wise.",
+    "author": "Cato the Elder",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "234",
+    "text": "The true success is the person who invented himself.",
+    "author": "Al Goldstein",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "235",
+    "text": "Silence is true wisdom's best reply.",
+    "author": "Euripides",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "236",
+    "text": "Happiness is the settling of the soul into its most appropriate spot.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "237",
+    "text": "Start where you are. Use what you have. Do what you can",
+    "author": "Arthur Ashe",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "238",
+    "text": "Opportunities are usually disguised as hard work, so most people don’t recognize them",
+    "author": "Ann Landers",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "239",
+    "text": "True love stories never have endings",
+    "author": "Richard Bach",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "240",
+    "text": "The greatest test of courage on earth is to bear defeat without losing heart.",
+    "author": "Robert G. Ingersoll",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "241",
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "242",
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "author": "Jim Rohn",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "243",
+    "text": "Wisdom consists of the anticipation of consequences.",
+    "author": "Norman Cousins",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "244",
+    "text": "There is no charm equal to tenderness of heart",
+    "author": "Jane Austen",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "245",
+    "text": "Happiness is nothing more than good health and a bad memory.",
+    "author": "Albert Schweitzer",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "246",
+    "text": "A little knowledge that acts is worth infinitely more than much knowledge that is idle.",
+    "author": "Khalil Gibran",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "247",
+    "text": "Happiness is when what you think, what you say, and what you do are in harmony.",
+    "author": "Mahatma Gandhi",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "248",
+    "text": "The secret to success is to know something nobody else knows.",
+    "author": "Aristotle Onassis",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "249",
+    "text": "A man with outward courage dares to die; a man with inner courage dares to live.",
+    "author": "Lao Tzu",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "250",
+    "text": "Success is not the absence of failure; it’s the persistence through failure.",
+    "author": "Aisha Tyler",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "251",
+    "text": "The secret of getting ahead is getting started",
+    "author": "Mark Twain",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "252",
+    "text": "He who is not everyday conquering some fear has not learned the secret of life.",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "253",
+    "text": "Confront the dark parts of yourself, and work to banish them with illumination and forgiveness. Your willingness to wrestle with your demons will cause your angels to sing.",
+    "author": "August Wilson",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "254",
+    "text": "Don’t wish it were easier. Wish you were better.",
+    "author": "Jim Rohn",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "255",
+    "text": "I attribute my success to this: I never gave or took any excuse.",
+    "author": "Florence Nightingale",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "256",
+    "text": "Honesty is the first chapter in the book of wisdom.",
+    "author": "Thomas Jefferson",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "257",
+    "text": "To dare is to lose one’s footing momentarily. To not dare is to lose oneself.",
+    "author": "Søren Kierkegaard",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "258",
+    "text": "Love doesn’t make the world go ‘round. Love is what makes the ride worthwhile",
+    "author": "Franklin P. Jones",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "259",
+    "text": "Knowledge without wisdom is like water in the sand.",
+    "author": "Guinean Proverb",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "260",
+    "text": "…Teslimiyet ne ileriye doğru bir hamle, ne de geriye doğru bir korkaklık göstergesidir…",
+    "author": "Kutlu Bilge",
+    "date": "2024-10-30",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "261",
+    "text": "Knowledge without justice ought to be called cunning rather than wisdom.",
+    "author": "Plato",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "262",
+    "text": "Above all, be the heroine of your life, not the victim.",
+    "author": "Nora Ephron",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "263",
+    "text": "A calm and modest life brings more happiness than the pursuit of success combined with constant restlessness.",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "264",
+    "text": "You know you're in love when you can't fall asleep because reality is finally better than your dreams",
+    "author": "Dr. Seuss",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "265",
+    "text": "Efforts and courage are not enough without purpose and direction.",
+    "author": "John F. Kennedy",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "266",
+    "text": "I have not failed. I’ve just found 10,000 ways that won’t work",
+    "author": "Thomas Edison",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "267",
+    "text": "Greatness, in the last analysis, is largely bravery. Courage in escaping from old ideas and old standards and respectable ways of doing things.",
+    "author": "James Robinson",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "268",
+    "text": "Love is an irresistible desire to be irresistibly desired",
+    "author": "Robert Frost",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "269",
+    "text": "A hero is no braver than an ordinary man, but he is brave five minutes longer.",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "270",
+    "text": "To live without hope is to cease to live.",
+    "author": "Fyodor Dostoevsky",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "271",
+    "text": "You don’t need to see the whole staircase, just take the first step",
+    "author": "Martin Luther King Jr.",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "272",
+    "text": "Success isn’t about how much money you make; it’s about the difference you make in people’s lives.",
+    "author": "Michelle Obama",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "273",
+    "text": "Knowledge is a process of piling up facts; wisdom lies in their simplification.",
+    "author": "Martin H. Fischer",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "274",
+    "text": "Wisdom is nothing more than healed pain.",
+    "author": "Robert Gary Lee",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "275",
+    "text": "Love is all we have, the only way that each can help the other",
+    "author": "Euripides",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "276",
+    "text": "We come to love not by finding a perfect person, but by learning to see an imperfect person perfectly",
+    "author": "Sam Keen",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "277",
+    "text": "Educating the mind without educating the heart is no education at all.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "278",
+    "text": "In the midst of winter, I found there was, within me, an invincible summer.",
+    "author": "Albert Camus",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "279",
+    "text": "You don't have to be great to start, but you have to start to be great",
+    "author": "Zig Ziglar",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "280",
+    "text": "Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit.",
+    "author": "Conrad Hilton",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "281",
+    "text": "You don’t have to be a genius or a visionary or even a college graduate to be successful. You just need a framework and a dream.",
+    "author": "Michael Dell",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "282",
+    "text": "The future belongs to those who believe in the beauty of their dreams",
+    "author": "Eleanor Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "283",
+    "text": "Wisdom is knowing when to speak your mind and when to mind your speech.",
+    "author": "Evangel",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "284",
+    "text": "Don’t watch the clock; do what it does. Keep going",
+    "author": "Sam Levenson",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "285",
+    "text": "Act as if what you do makes a difference. It does",
+    "author": "William James",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "286",
+    "text": "The invariable mark of wisdom is to see the miraculous in the common.",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "287",
+    "text": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "288",
+    "text": "Love is the only reality, and it is not a mere sentiment. It is the ultimate truth that lies at the heart of creation",
+    "author": "Rabindranath Tagore",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "289",
+    "text": "In every walk with nature one receives far more than he seeks.",
+    "author": "John Muir",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "290",
+    "text": "In order to succeed, your desire for success should be greater than your fear of failure.",
+    "author": "Bill Cosby",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "291",
+    "text": "Most folks are about as happy as they make up their minds to be.",
+    "author": "Abraham Lincoln",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "292",
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "George Bernard Shaw",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "293",
+    "text": "The way to get started is to quit talking and begin doing",
+    "author": "Walt Disney",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "294",
+    "text": "Love is not something you feel. It is something you do",
+    "author": "David Wilkerson",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "295",
+    "text": "Success is how high you bounce when you hit bottom.",
+    "author": "George S. Patton",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "296",
+    "text": "It takes a lot of courage to show your dreams to someone else.",
+    "author": "Erma Bombeck",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "297",
+    "text": "You miss 100% of the shots you don’t take",
+    "author": "Wayne Gretzky",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "298",
+    "text": "Only those who dare to fail greatly can ever achieve greatly",
+    "author": "Robert F. Kennedy",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "299",
+    "text": "Valiant deeds honor the brave.",
+    "author": "Harry Harrison",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "300",
+    "text": "Success is stumbling from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "301",
+    "text": "To be happy, we must not be too concerned with others.",
+    "author": "Albert Camus",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "302",
+    "text": "Love is the magician that pulls man out of his own hat",
+    "author": "Ben Hecht",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "303",
+    "text": "En değerli hazinemiz kendimiz ile olan yolculukta varlık değerimizin farkına varabilmektir.",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-16",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "304",
+    "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "305",
+    "text": "Strive not to be a success, but rather to be of value",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "306",
+    "text": "Happiness is not a goal; it is a by-product.",
+    "author": "Eleanor Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "307",
+    "text": "Where there is love there is life",
+    "author": "Mahatma Gandhi",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "308",
+    "text": "Love is friendship that has caught fire",
+    "author": "Ann Landers",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "309",
+    "text": "Wisdom begins in wonder.",
+    "author": "Socrates",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "310",
+    "text": "Love is space and time measured by the heart",
+    "author": "Marcel Proust",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "311",
+    "text": "Do what you can, with what you have, where you are",
+    "author": "Theodore Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "312",
+    "text": "It is unwise to be sure of one's own wisdom.",
+    "author": "Mahatma Gandhi",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "313",
+    "text": "Silence is the sleep that nourishes wisdom.",
+    "author": "Francis Bacon",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "314",
+    "text": "It is not the strength of the body that counts, but the strength of the spirit.",
+    "author": "J.R.R. Tolkien",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "315",
+    "text": "It is not death that a man should fear, but he should fear never beginning to live.",
+    "author": "Marcus Aurelius",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "316",
+    "text": "Wise men speak because they have something to say; fools because they have to say something.",
+    "author": "Plato",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "317",
+    "text": "It is never too late to be what you might have been",
+    "author": "George Eliot",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "318",
+    "text": "Love is a promise; love is a souvenir, once given never forgotten, never let it disappear",
+    "author": "John Lennon",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "319",
+    "text": "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk.",
+    "author": "Doug Larson",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "320",
+    "text": "Success is the result of preparation, hard work, and learning from failure.",
+    "author": "Colin Powell",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "321",
+    "text": "All progress takes place outside the comfort zone",
+    "author": "Michael John Bobak",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "322",
+    "text": "Dreams don’t work unless you do",
+    "author": "John C. Maxwell",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "323",
+    "text": "It is the province of knowledge to speak, and it is the privilege of wisdom to listen.",
+    "author": "Oliver Wendell Holmes Sr.",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "324",
+    "text": "We don’t develop courage by being happy every day. We develop it by surviving difficult times and challenging adversity.",
+    "author": "Barbara De Angelis",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "325",
+    "text": "Have the courage to follow your heart and intuition.",
+    "author": "Steve Jobs",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "326",
+    "text": "If there were in the world today any large number of people who desired their own happiness more than they desired the unhappiness of others, we could have a paradise in a few years.",
+    "author": "Bertrand Russell",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "327",
+    "text": "Try not to become a man of success, but rather try to become a man of value.",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "328",
+    "text": "Everything has beauty, but not everyone can see it",
+    "author": "Confucius",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "329",
+    "text": "He who jumps into the void owes no explanation to those who stand and watch.",
+    "author": "Jean-Luc Godard",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "330",
+    "text": "Love is the great miracle cure",
+    "author": "Louise Hay",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "331",
+    "text": "The supreme happiness of life is the conviction that we are loved",
+    "author": "Victor Hugo",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "332",
+    "text": "You are braver than you believe, stronger than you seem, and smarter than you think",
+    "author": "A.A. Milne",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "333",
+    "text": "The heart has its reasons which reason knows not",
+    "author": "Blaise Pascal",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "334",
+    "text": "There is no path to happiness; happiness is the path.",
+    "author": "Thich Nhat Hanh",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "335",
+    "text": "Love is the only force capable of transforming an enemy into a friend",
+    "author": "Martin Luther King Jr.",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "336",
+    "text": "The more you know, the more you realize you don’t know.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "337",
+    "text": "The way to love anything is to realize that it may be lost",
+    "author": "Gilbert K. Chesterton",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "338",
+    "text": "The best love is the kind that awakens the soul and makes us reach for more",
+    "author": "Nicholas Sparks",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "339",
+    "text": "The greater part of our happiness or misery depends upon our dispositions, and not upon our circumstances.",
+    "author": "Martha Washington",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "340",
+    "text": "We know what we are, but know not what we may be",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "341",
+    "text": "He who knows best knows how little he knows.",
+    "author": "Thomas Jefferson",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "342",
+    "text": "You are never too old to set another goal or to dream a new dream",
+    "author": "C.S. Lewis",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "343",
+    "text": "Success is where preparation and opportunity meet.",
+    "author": "Bobby Unser",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "344",
+    "text": "Wisdom comes not from age, but from education and learning.",
+    "author": "Anton Chekhov",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "345",
+    "text": "If you want to succeed, you should strike out on new paths, rather than travel the worn paths of accepted success.",
+    "author": "John D. Rockefeller",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "346",
+    "text": "I cannot give you the formula for success, but I can give you the formula for failure, which is: Try to please everybody.",
+    "author": "Herbert Bayard Swope",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "347",
+    "text": "A ship is safe in harbor, but that’s not what ships are for.",
+    "author": "John A. Shedd",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "348",
+    "text": "Love is the only sane and satisfactory answer to the problem of human existence",
+    "author": "Erich Fromm",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "349",
+    "text": "Love is the flower; you've got to let it grow",
+    "author": "John Lennon",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "350",
+    "text": "Our envy always lasts longer than the happiness of those we envy.",
+    "author": "Heraclitus",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "351",
+    "text": "The path to success is to take massive, determined action.",
+    "author": "Tony Robbins",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "352",
+    "text": "They say a person needs just three things to be truly happy in this world: someone to love, something to do, and something to hope for.",
+    "author": "Tom Bodett",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "353",
+    "text": "Science is organized knowledge. Wisdom is organized life.",
+    "author": "Immanuel Kant",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "354",
+    "text": "Love is the power to see similarity in the dissimilar",
+    "author": "Theodor Adorno",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "355",
+    "text": "The foolish man seeks happiness in the distance, the wise grows it under his feet.",
+    "author": "James Oppenheim",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "356",
+    "text": "Knowledge speaks, but wisdom listens.",
+    "author": "Jimi Hendrix",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "357",
+    "text": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "358",
+    "text": "A prudent question is one-half of wisdom.",
+    "author": "Francis Bacon",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "359",
+    "text": "The fool wonders, the wise man asks.",
+    "author": "Benjamin Disraeli",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "360",
+    "text": "To conquer fear is the beginning of wisdom.",
+    "author": "Bertrand Russell",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "361",
+    "text": "True love cannot be found where it does not exist, nor can it be denied where it does",
+    "author": "Torquato Tasso",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "362",
+    "text": "We loved with a love that was more than love",
+    "author": "Edgar Allan Poe",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "363",
+    "text": "There is no fool so great a fool as a knowing fool.",
+    "author": "John Heywood",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "364",
+    "text": "Thousands of candles can be lit from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared.",
+    "author": "Buddha",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "365",
+    "text": "The more you praise and celebrate your life, the more there is in life to celebrate.",
+    "author": "Oprah Winfrey",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "366",
+    "text": "He who devotes himself to learning seeks from day to day to increase his knowledge; he who devotes himself to the Tao seeks from day to day to diminish his doing.",
+    "author": "Lao Tzu",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "367",
+    "text": "There is no remedy for love but to love more",
+    "author": "Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "368",
+    "text": "Be wiser than other people if you can, but do not tell them so.",
+    "author": "Lord Chesterfield",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "369",
+    "text": "It is better to remain silent and be thought a fool than to speak and remove all doubt.",
+    "author": "Abraham Lincoln",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "370",
+    "text": "Love is the answer to everything. It's the only reason to do anything",
+    "author": "Ray Bradbury",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "371",
+    "text": "Don’t limit your challenges, challenge your limits.",
+    "author": "Jerry Dunn",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "372",
+    "text": "It is not because things are difficult that we do not dare; it is because we do not dare that things are difficult.",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "373",
+    "text": "The successful man will profit from his mistakes and try again in a different way.",
+    "author": "Dale Carnegie",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "374",
+    "text": "No man is worth his salt who is not ready at all times to risk his well-being, to risk his body, to risk his life, in a great cause.",
+    "author": "Theodore Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "375",
+    "text": "Love looks not with the eyes, but with the mind",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "376",
+    "text": "Success is liking yourself, liking what you do, and liking how you do it.",
+    "author": "Maya Angelou",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "377",
+    "text": "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "Marcus Aurelius",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "378",
+    "text": "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+    "author": "William Saroyan",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "379",
+    "text": "Time ripens all things; no man is born wise.",
+    "author": "Miguel de Cervantes",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "380",
+    "text": "Fear is a reaction. Courage is a decision.",
+    "author": "Winston Churchill",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "381",
+    "text": "To see what is right and not do it is the want of courage.",
+    "author": "Confucius",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "382",
+    "text": "Love is when you meet someone who tells you something new about yourself",
+    "author": "André Breton",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "383",
+    "text": "The difference between who you are and who you want to be is what you do.",
+    "author": "Bill Phillips",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "384",
+    "text": "Love is a friendship set to music",
+    "author": "Joseph Campbell",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "385",
+    "text": "The only joy in the world is to begin.",
+    "author": "Cesare Pavese",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "386",
+    "text": "A man begins cutting his wisdom teeth the first time he bites off more than he can chew.",
+    "author": "Herb Caen",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "387",
+    "text": "It is easy to be brave from a safe distance.",
+    "author": "Aesop",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "388",
+    "text": "Knowledge puffeth up, but charity edifieth.",
+    "author": "Bible (1 Corinthians 8:1)",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "389",
+    "text": "Success is achieved and maintained by those who try and keep trying.",
+    "author": "W. Clement Stone",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "390",
+    "text": "Courage is never to let your actions be influenced by your fears.",
+    "author": "Arthur Koestler",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "391",
+    "text": "To enjoy good health, to bring true happiness to one’s family, to bring peace to all, one must first discipline and control one’s own mind.",
+    "author": "Buddha",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "392",
+    "text": "We don’t laugh because we’re happy – we’re happy because we laugh.",
+    "author": "William James",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "393",
+    "text": "Courage is fire, and bullying is smoke.",
+    "author": "Benjamin Disraeli",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "394",
+    "text": "To conquer oneself is the best and noblest victory; to be vanquished by one's own nature is the worst and most ignoble defeat.",
+    "author": "Plato",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "395",
+    "text": "Wisdom is knowing what to do next; virtue is doing it.",
+    "author": "David Starr Jordan",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "396",
+    "text": "Wisdom is the power to put our time and our knowledge to the proper use.",
+    "author": "Thomas J. Watson",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "397",
+    "text": "Don’t let yesterday take up too much of today",
+    "author": "Will Rogers",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "398",
+    "text": "To love and be loved is to the feel the sun from both sides",
+    "author": "David Viscott",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "399",
+    "text": "Do one thing every day that scares you.",
+    "author": "Eleanor Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "400",
+    "text": "The secret of success is to do the common thing uncommonly well.",
+    "author": "John D. Rockefeller Jr.",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "401",
+    "text": "Courage consists not in hazarding without fear; but being resolutely minded in a just cause.",
+    "author": "Plutarch",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "402",
+    "text": "The only place where success comes before work is in the dictionary.",
+    "author": "Vidal Sassoon",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "403",
+    "text": "If you want to be happy, be.",
+    "author": "Leo Tolstoy",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "404",
+    "text": "The best dreams happen when you’re awake",
+    "author": "Cherie Gilderbloom",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "405",
+    "text": "Courage is the ladder on which all the other virtues mount.",
+    "author": "Clare Booth Luce",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "406",
+    "text": "Courage is knowing what not to fear.",
+    "author": "Plato",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "407",
+    "text": "A coward is incapable of exhibiting love; it is the prerogative of the brave.",
+    "author": "Mahatma Gandhi",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "408",
+    "text": "The successful warrior is the average man, with laser-like focus.",
+    "author": "Bruce Lee",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "409",
+    "text": "We tend to forget that happiness doesn’t come as a result of getting something we don’t have, but rather of recognizing and appreciating what we do have.",
+    "author": "Friedrich Koenig",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "410",
+    "text": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+    "author": "C.S. Lewis",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "411",
+    "text": "If you want happiness for an hour, take a nap. If you want happiness for a day, go fishing. If you want happiness for a year, inherit a fortune. If you want happiness for a lifetime, help someone else.",
+    "author": "Chinese Proverb",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "412",
+    "text": "If you really want to do something, you'll find a way. If you don't, you'll find an excuse.",
+    "author": "Jim Rohn",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "413",
+    "text": "The greatest wisdom is to realize one's lack of it.",
+    "author": "Lao Tzu",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "414",
+    "text": "Success is dependent on effort.",
+    "author": "Sophocles",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "415",
+    "text": "The brave may not live forever, but the cautious do not live at all.",
+    "author": "Richard Branson",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "416",
+    "text": "At the touch of love everyone becomes a poet",
+    "author": "Plato",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "417",
+    "text": "Wisdom is oftentimes nearer when we stoop than when we soar.",
+    "author": "William Wordsworth",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "418",
+    "text": "Believe you can and you're halfway there",
+    "author": "Theodore Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "419",
+    "text": "The wise understand by themselves; fools follow the reports of others.",
+    "author": "Tibetan Proverb",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "420",
+    "text": "Happiness is a choice that requires effort at times.",
+    "author": "Aeschylus",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "421",
+    "text": "A wise man will make more opportunities than he finds.",
+    "author": "Francis Bacon",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "422",
+    "text": "Even a fool, when he holds his peace, is counted wise.",
+    "author": "Proverbs 17:28",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "423",
+    "text": "The only way to achieve the impossible is to believe it is possible",
+    "author": "Charles Kingsleigh",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "424",
+    "text": "Courage is not the absence of fear, but rather the judgment that something else is more important than fear.",
+    "author": "Ambrose Redmoon",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "425",
+    "text": "Life isn’t about waiting for the storm to pass but learning to dance in the rain",
+    "author": "Vivian Greene",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "426",
+    "text": "Wisdom comes from experience. Experience is often a result of lack of wisdom.",
+    "author": "Terry Pratchett",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "427",
+    "text": "Love takes off masks that we fear we cannot live without and know we cannot live within",
+    "author": "James Baldwin",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "428",
+    "text": "Bravery is the capacity to perform properly even when scared half to death.",
+    "author": "Omar Bradley",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "429",
+    "text": "The first duty of love is to listen",
+    "author": "Paul Tillich",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "430",
+    "text": "Life shrinks or expands in proportion to one’s courage.",
+    "author": "Anaïs Nin",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "431",
+    "text": "Wisdom outweighs any wealth.",
+    "author": "Sophocles",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "432",
+    "text": "The happiest people are those who think the most interesting thoughts.",
+    "author": "William Lyon Phelps",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "433",
+    "text": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "434",
+    "text": "Love does not dominate; it cultivates",
+    "author": "Johann Wolfgang von Goethe",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "435",
+    "text": "Action may not always bring happiness; but there is no happiness without action.",
+    "author": "Benjamin Disraeli",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "436",
+    "text": "Happiness doesn’t result from what we get, but from what we give.",
+    "author": "Ben Carson",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "437",
+    "text": "It is better to fail in originality than to succeed in imitation.",
+    "author": "Herman Melville",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "438",
+    "text": "Love will find a way through paths where wolves fear to prey",
+    "author": "Lord Byron",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "439",
+    "text": "Fear cuts deeper than swords.",
+    "author": "George R.R. Martin",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "440",
+    "text": "All happiness depends on courage and work.",
+    "author": "Honoré de Balzac",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "441",
+    "text": "The most important thing in life is to learn how to give out love, and to let it come in",
+    "author": "Morrie Schwartz",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "442",
+    "text": "A person who never made a mistake never tried anything new",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "443",
+    "text": "A wise man adapts himself to circumstances, as water shapes itself to the vessel that contains it.",
+    "author": "Chinese Proverb",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "444",
+    "text": "If I know what love is, it is because of you",
+    "author": "Hermann Hesse",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "445",
+    "text": "Some people dream of success, while other people get up every morning and make it happen.",
+    "author": "Wayne Huizenga",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "446",
+    "text": "It’s pretty hard to tell what does bring happiness. Poverty and wealth have both failed.",
+    "author": "Kin Hubbard",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "447",
+    "text": "Love is composed of a single soul inhabiting two bodies",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "448",
+    "text": "The power of imagination makes us infinite",
+    "author": "John Muir",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "449",
+    "text": "The secret to happiness is freedom... And the secret to freedom is courage.",
+    "author": "Thucydides",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "450",
+    "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "451",
+    "text": "You can’t use up creativity. The more you use, the more you have",
+    "author": "Maya Angelou",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "452",
+    "text": "Love does not claim possession but gives freedom",
+    "author": "Rabindranath Tagore",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "453",
+    "text": "A wise man can learn more from a foolish question than a fool can learn from a wise answer.",
+    "author": "Bruce Lee",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "454",
+    "text": "Experience is not what happens to you; it’s what you do with what happens to you.",
+    "author": "Aldous Huxley",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "455",
+    "text": "Love does not consist in gazing at each other, but in looking outward together in the same direction",
+    "author": "Antoine de Saint-Exupéry",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "456",
+    "text": "Love is a force more formidable than any other",
+    "author": "Barbara De Angelis",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "457",
+    "text": "Happiness is nothing but good health and freedom.",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "458",
+    "text": "Courage is contagious. When a brave man takes a stand, the spines of others are often stiffened.",
+    "author": "Billy Graham",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "459",
+    "text": "Happiness is a journey, not a destination.",
+    "author": "Buddha",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "460",
+    "text": "Do not be embarrassed by your failures, learn from them and start again.",
+    "author": "Richard Branson",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "461",
+    "text": "It is characteristic of wisdom not to do desperate things.",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "462",
+    "text": "Happiness is an inside job.",
+    "author": "William Arthur Ward",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "463",
+    "text": "There is no traffic jam along the extra mile",
+    "author": "Roger Staubach",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "464",
+    "text": "Love is a smoke and is made with the fume of sighs",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "465",
+    "text": "To be brave is to love someone unconditionally, without expecting anything in return",
+    "author": "Margaret Mitchell",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "466",
+    "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "467",
+    "text": "The truest wisdom is a resolute determination.",
+    "author": "Napoleon Bonaparte",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "468",
+    "text": "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    "author": "James M. Barrie",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "469",
+    "text": "A table, a chair, a bowl of fruit and a violin; what else does a man need to be happy?",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "470",
+    "text": "Happiness is not the absence of problems, it's the ability to deal with them.",
+    "author": "Steve Maraboli",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "471",
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "472",
+    "text": "It is curious that physical courage should be so common in the world and moral courage so rare.",
+    "author": "Mark Twain",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "473",
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates",
+    "date": "",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": false
+  },
+  {
+    "id": "474",
+    "text": "Happiness depends upon ourselves.",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "475",
+    "text": "Courage is like a muscle. We strengthen it by use.",
+    "author": "Ruth Gordo",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "476",
+    "text": "Success is not how high you have climbed, but how you make a positive difference to the world.",
+    "author": "Roy T. Bennett",
+    "date": "",
+    "source": "",
+    "category": "Başarı",
+    "personal": false
+  },
+  {
+    "id": "477",
+    "text": "Keep your face always toward the sunshine, and shadows will fall behind you",
+    "author": "Walt Whitman",
+    "date": "",
+    "source": "",
+    "category": "İlham",
+    "personal": false
+  },
+  {
+    "id": "478",
+    "text": "Do not pray for an easy life; pray for the strength to endure a difficult one.",
+    "author": "Bruce Lee",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "479",
+    "text": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "date": "",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": false
+  },
+  {
+    "id": "480",
+    "text": "An investment in knowledge pays the best interest.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "481",
+    "text": "Every moment of one's existence, one is growing into more or retreating into less",
+    "author": "Norman Mailer",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "482",
+    "text": "In the end, it's not the years in your life that count. It's the life in your years",
+    "author": "Abraham Lincoln",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "483",
+    "text": "Life is growth. If we stop growing, technically and spiritually, we are as good as dead",
+    "author": "Morihei Ueshiba",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "484",
+    "text": "There are no great limits to growth because there are no limits of human intelligence, imagination, and wonder",
+    "author": "Ronald Reagan",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "485",
+    "text": "Growth is never by mere chance; it is the result of forces working together",
+    "author": "James Cash Penney",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "486",
+    "text": "A real friend is one who walks in when the rest of the world walks out",
+    "author": "Walter Winchell",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "487",
+    "text": "To get rich, you have to be making money while you’re asleep.",
+    "author": "David Bailey",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "488",
+    "text": "A friend knows the song in my heart and sings it to me when my memory fails",
+    "author": "Donna Roberts",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "489",
+    "text": "Friendship is unnecessary, like philosophy, like art... It has no survival value; rather it is one of those things that give value to survival",
+    "author": "C.S. Lewis",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "490",
+    "text": "If you don't build your dream, someone else will hire you to help them build theirs",
+    "author": "Dhirubhai Ambani",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "491",
+    "text": "We can't become what we need to be by remaining what we are",
+    "author": "Oprah Winfrey",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "492",
+    "text": "The only wealth which you will keep forever is the wealth you have given away.",
+    "author": "Marcus Aurelius",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "493",
+    "text": "Be not afraid of growing slowly, be afraid only of standing still",
+    "author": "Chinese Proverb",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "494",
+    "text": "The greatest healing therapy is friendship and love",
+    "author": "Hubert H. Humphrey",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "495",
+    "text": "Friendship is the shadow of the evening, which strengthens with the setting sun of life",
+    "author": "La Fontaine",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "496",
+    "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance",
+    "author": "Alan Watts",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "497",
+    "text": "Wealth is of the heart and mind, not the pocket.",
+    "author": "Pharrell Williams",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "498",
+    "text": "I’d like to live as a poor man with lots of money.",
+    "author": "Pablo Picasso",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "499",
+    "text": "Success seems to be largely a matter of hanging on after others have let go",
+    "author": "William Feather",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "500",
+    "text": "The greatest thing in this world is not so much where we stand as in what direction we are moving",
+    "author": "Oliver Wendell Holmes",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "501",
+    "text": "Without continual growth and progress, such words as improvement, achievement, and success have no meaning",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "502",
+    "text": "A friend is someone who makes it easy to believe in yourself",
+    "author": "Heidi Wills",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "503",
+    "text": "A friend is one of the nicest things you can have and one of the best things you can be",
+    "author": "Winnie the Pooh",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "504",
+    "text": "Friends are the siblings God never gave us",
+    "author": "Mencius",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "505",
+    "text": "The greatest glory in living lies not in never falling, but in rising every time we fall",
+    "author": "Nelson Mandela",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "506",
+    "text": "In the end, we will remember not the words of our enemies, but the silence of our friends",
+    "author": "Martin Luther King Jr.",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "507",
+    "text": "A true friend stabs you in the front",
+    "author": "Oscar Wilde",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "508",
+    "text": "Problems are not stop signs, they are guidelines",
+    "author": "Robert H. Schuller",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "509",
+    "text": "You grow more when you get more people's perspectives",
+    "author": "Mark Zuckerberg",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "510",
+    "text": "Don't dwell on what went wrong. Instead, focus on what to do next",
+    "author": "Denis Waitley",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "511",
+    "text": "Financial peace isn’t the acquisition of stuff. It’s learning to live on less than you make, so you can give money back and have money to invest. You can’t win until you do this.",
+    "author": "Dave Ramsey",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "512",
+    "text": "Every problem is a gift — without problems we would not grow",
+    "author": "Tony Robbins",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "513",
+    "text": "The only journey is the journey within",
+    "author": "Rainer Maria Rilke",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "514",
+    "text": "Growth is a spiral process, doubling back on itself, reassessing and regrouping",
+    "author": "Julia Margaret Cameron",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "515",
+    "text": "The desire for riches is simply the capacity for larger life seeking fulfillment.",
+    "author": "Wallace D. Wattles",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "516",
+    "text": "The most I can do for my friend is simply be his friend",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "517",
+    "text": "Money often costs too much.",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "518",
+    "text": "Friendship is the only cement that will ever hold the world together",
+    "author": "Woodrow Wilson",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "519",
+    "text": "Change your thoughts and you change your world",
+    "author": "Norman Vincent Peale",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "520",
+    "text": "Being rich is having money; being wealthy is having time.",
+    "author": "Margaret Bonnano",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "521",
+    "text": "A friend is what the heart needs all the time",
+    "author": "Henry Van Dyke",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "522",
+    "text": "Friendship marks a life even more deeply than love",
+    "author": "Elie Wiesel",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "523",
+    "text": "The only limits to the possibilities in your life tomorrow are the buts you use today",
+    "author": "Les Brown",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "524",
+    "text": "You must be the change you wish to see in the world",
+    "author": "Mahatma Gandhi",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "525",
+    "text": "A friend is someone who gives you total freedom to be yourself",
+    "author": "Jim Morrison",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "526",
+    "text": "A true friend reaches for your hand and touches your heart",
+    "author": "Heather Pryor",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "527",
+    "text": "A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow",
+    "author": "William Shakespeare",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "528",
+    "text": "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+    "author": "Franklin D. Roosevelt",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "529",
+    "text": "One can choose to go back toward safety or forward toward growth",
+    "author": "Abraham Maslow",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "530",
+    "text": "Friendship is a sheltering tree",
+    "author": "Samuel Taylor Coleridge",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "531",
+    "text": "It’s good to have money and the things that money can buy, but it’s good, too, to check up once in a while and make sure that you haven’t lost the things that money can’t buy.",
+    "author": "George Lorimer",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "532",
+    "text": "Personal growth is not a matter of learning new information but unlearning old limits",
+    "author": "Alan Cohen",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "533",
+    "text": "Growth is the only evidence of life",
+    "author": "John Henry Newman",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "534",
+    "text": "A true friend is the greatest of all blessings",
+    "author": "François de La Rochefoucauld",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "535",
+    "text": "A person who never made a mistake never tried anything new",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "536",
+    "text": "Success is the sum of small efforts, repeated day in and day out",
+    "author": "Robert Collier",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "537",
+    "text": "A friend to all is a friend to none",
+    "author": "Aristotle",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "538",
+    "text": "Wealth is like seawater; the more we drink, the thirstier we become.",
+    "author": "Arthur Schopenhauer",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "539",
+    "text": "There is nothing on this earth more to be prized than true friendship",
+    "author": "Thomas Aquinas",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "540",
+    "text": "Friendship is like money, easier made than kept",
+    "author": "Samuel Butler",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "541",
+    "text": "The greatest wealth is a poverty of desires.",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "542",
+    "text": "The only way to have a friend is to be one",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "543",
+    "text": "The most beautiful discovery true friends make is that they can grow separately without growing apart",
+    "author": "Elisabeth Foley",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "544",
+    "text": "True friends are those who, when you make a fool of yourself, don’t believe that this condition is permanent",
+    "author": "Erwin T. Randall",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "545",
+    "text": "The goal isn’t more money. The goal is living life on your terms.",
+    "author": "Chris Brogan",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "546",
+    "text": "I am always doing that which I cannot do, in order that I may learn how to do it",
+    "author": "Pablo Picasso",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "547",
+    "text": "Wealth is a tool of freedom, but the pursuit of wealth is the way to slavery.",
+    "author": "Frank Herbert",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "548",
+    "text": "When we are no longer able to change a situation, we are challenged to change ourselves",
+    "author": "Viktor E. Frankl",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "549",
+    "text": "Formal education will make you a living; self-education will make you a fortune.",
+    "author": "Jim Rohn",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "550",
+    "text": "Difficulties strengthen the mind, as labor does the body",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "551",
+    "text": "Your economic security does not lie in your job; it lies in your own power to produce, to think, to learn, to create, to adapt.",
+    "author": "Stephen Covey",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "552",
+    "text": "Life is partly what we make it, and partly what it is made by the friends we choose",
+    "author": "Tennessee Williams",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "553",
+    "text": "A true friend is the one who holds your hand and touches your heart",
+    "author": "Gabriel Garcia Marquez",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "554",
+    "text": "The more you know yourself, the more clarity there is",
+    "author": "Jiddu Krishnamurti",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "555",
+    "text": "Walking with a friend in the dark is better than walking alone in the light",
+    "author": "Helen Keller",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "556",
+    "text": "Money is a terrible master but an excellent servant.",
+    "author": "P.T. Barnum",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "557",
+    "text": "He who has a why to live can bear almost any how",
+    "author": "Friedrich Nietzsche",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "558",
+    "text": "A single rose can be my garden... a single friend, my world",
+    "author": "Leo Buscaglia",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "559",
+    "text": "My best friend is the one who brings out the best in me",
+    "author": "Henry Ford",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "560",
+    "text": "A great fortune is a great slavery.",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "561",
+    "text": "When wealth is lost, nothing is lost; when health is lost, something is lost; when character is lost, all is lost.",
+    "author": "Billy Graham",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "562",
+    "text": "All riches have their origin in mind. Wealth is in ideas—not money.",
+    "author": "Robert Collier",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "563",
+    "text": "Growth is painful. Change is painful. But nothing is as painful as staying stuck somewhere",
+    "author": "Mandy Hale",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "564",
+    "text": "He is richest who is content with the least, for content is the wealth of nature.",
+    "author": "Socrates",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "565",
+    "text": "Friendship makes prosperity more shining and lessens adversity by dividing and sharing it",
+    "author": "Cicero",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "566",
+    "text": "In any given moment we have two options: to step forward into growth or step back into safety",
+    "author": "Abraham Maslow",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "567",
+    "text": "If you're not willing to risk the usual, you will have to settle for the ordinary",
+    "author": "Jim Rohn",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "568",
+    "text": "A good friend is like a four-leaf clover; hard to find and lucky to have",
+    "author": "Irish Proverb",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "569",
+    "text": "Not he who has much is rich, but he who gives much.",
+    "author": "Erich Fromm",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "570",
+    "text": "Friendship is always a sweet responsibility, never an opportunity",
+    "author": "Khalil Gibran",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "571",
+    "text": "Growth is the great separator between those who succeed and those who do not",
+    "author": "John C. Maxwell",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "572",
+    "text": "Financial freedom is available to those who learn about it and work for it.",
+    "author": "Robert Kiyosaki",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "573",
+    "text": "The lack of money is the root of all evil.",
+    "author": "Mark Twain",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "574",
+    "text": "Wealth consists not in having great possessions, but in having few wants.",
+    "author": "Epictetus",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "575",
+    "text": "Friendship is the golden thread that ties the heart of all the world",
+    "author": "John Evelyn",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "576",
+    "text": "Friends are the sunshine of life",
+    "author": "John Hay",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "577",
+    "text": "The essence of life is growth",
+    "author": "Sigmund Freud",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "578",
+    "text": "Change is inevitable. Growth is optional",
+    "author": "John C. Maxwell",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "579",
+    "text": "Friendship improves happiness and abates misery, by the doubling of our joy and the dividing of our grief",
+    "author": "Marcus Tullius Cicero",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "580",
+    "text": "True friendship comes when the silence between two people is comfortable",
+    "author": "David Tyson Gentry",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "581",
+    "text": "Strength and growth come only through continuous effort and struggle",
+    "author": "Napoleon Hill",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "582",
+    "text": "The biggest room in the world is the room for improvement",
+    "author": "Helmut Schmidt",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "583",
+    "text": "You will either step forward into growth or you will step back into safety",
+    "author": "Abraham Maslow",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "584",
+    "text": "Wealth is the slave of a wise man. The master of a fool.",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "585",
+    "text": "The language of friendship is not words but meanings",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "586",
+    "text": "The more difficulties one has to encounter, within and without, the more significant and the higher in inspiration his life will be",
+    "author": "Horace Bushnell",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "587",
+    "text": "He who loses wealth loses much; he who loses a friend loses more; but he that loses his courage loses all.",
+    "author": "Miguel de Cervantes",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "588",
+    "text": "You aren’t wealthy until you have something money can’t buy.",
+    "author": "Garth Brooks",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "589",
+    "text": "Life isn't about waiting for the storm to pass, it's about learning how to dance in the rain",
+    "author": "Vivian Greene",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "590",
+    "text": "Good friends, good books, and a sleepy conscience: this is the ideal life",
+    "author": "Mark Twain",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "591",
+    "text": "Friends show their love in times of trouble, not in happiness",
+    "author": "Euripides",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "592",
+    "text": "Wealth is the ability to fully experience life.",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "593",
+    "text": "The ornament of a house is the friends who frequent it",
+    "author": "Ralph Waldo Emerson",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "594",
+    "text": "If you want to be wealthy, think of saving as earning.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "595",
+    "text": "There are no shortcuts to any place worth going",
+    "author": "Beverly Sills",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "596",
+    "text": "A friend is one who knows you and loves you just the same",
+    "author": "Elbert Hubbard",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "597",
+    "text": "Friends are the family we choose for ourselves",
+    "author": "Edna Buchanan",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "598",
+    "text": "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    "author": "Ayn Rand",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "599",
+    "text": "Wealth is not in making money, but in making the man while he is making money.",
+    "author": "John Wicker",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "600",
+    "text": "To improve is to change; to be perfect is to change often",
+    "author": "Winston Churchill",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "601",
+    "text": "Strength shows not only in the ability to persist, but in the ability to start over",
+    "author": "F. Scott Fitzgerald",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "602",
+    "text": "In the middle of difficulty lies opportunity",
+    "author": "Albert Einstein",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "603",
+    "text": "You cannot dream yourself into a character; you must hammer and forge yourself one",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "604",
+    "text": "Friendship is the only thing in the world concerning the usefulness of which all mankind are agreed",
+    "author": "Cicero",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "605",
+    "text": "Don't gain the world and lose your soul, wisdom is better than silver or gold.",
+    "author": "Bob Marley",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "606",
+    "text": "Friendship is a strong and habitual inclination in two persons to promote the good and happiness of one another",
+    "author": "Eustace Budgell",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "607",
+    "text": "Too many people spend money they haven’t earned to buy things they don’t want to impress people they don’t like.",
+    "author": "Will Rogers",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "608",
+    "text": "A good friend can tell you what is the matter with you in a minute",
+    "author": "Arnold H. Glasow",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "609",
+    "text": "Mistakes are the growing pains of wisdom",
+    "author": "William George Jordan",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "610",
+    "text": "The best way to destroy an enemy is to make him a friend",
+    "author": "Abraham Lincoln",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "611",
+    "text": "One of the most beautiful qualities of true friendship is to understand and to be understood",
+    "author": "Seneca",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "612",
+    "text": "The individual who says it is not possible should move out of the way of those doing it.",
+    "author": "Tricia Cunningham",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "613",
+    "text": "All change is not growth, as all movement is not forward",
+    "author": "Ellen Glasgow",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "614",
+    "text": "Friendship multiplies the good of life and divides the evil",
+    "author": "Baltasar Gracian",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "615",
+    "text": "The greatest wealth is to live content with little.",
+    "author": "Plato",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "616",
+    "text": "Growth demands a temporary surrender of security",
+    "author": "Gail Sheehy",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "617",
+    "text": "Where wealth accumulates, men decay.",
+    "author": "Oliver Goldsmith",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "618",
+    "text": "If we’re growing, we’re always going to be out of our comfort zone",
+    "author": "John C. Maxwell",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "619",
+    "text": "What we achieve inwardly will change outer reality",
+    "author": "Plutarch",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "620",
+    "text": "To the world you may be just one person, but to one person you may be the world",
+    "author": "Brandi Snyder",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "621",
+    "text": "A penny saved is a penny earned.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "622",
+    "text": "A fool and his money are soon parted.",
+    "author": "Thomas Tusser",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "623",
+    "text": "Friendship without self-interest is one of the rare and beautiful things of life",
+    "author": "James F. Byrnes",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "624",
+    "text": "It's not your salary that makes you rich, it's your spending habits.",
+    "author": "Charles A. Jaffe",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "625",
+    "text": "Friendship is born at that moment when one person says to another, ‘What! You too? I thought I was the only one’",
+    "author": "C.S. Lewis",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "626",
+    "text": "A true friend never gets in your way unless you happen to be going down",
+    "author": "Arnold H. Glasow",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "627",
+    "text": "It is health that is real wealth and not pieces of gold and silver.",
+    "author": "Mahatma Gandhi",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "628",
+    "text": "Life isn't about finding yourself. Life is about creating yourself",
+    "author": "George Bernard Shaw",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "629",
+    "text": "The only real failure in life is not to be true to the best one knows",
+    "author": "Buddha",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "630",
+    "text": "The best time to make friends is before you need them",
+    "author": "Ethel Barrymore",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "631",
+    "text": "The more you learn, the more you earn.",
+    "author": "Warren Buffett",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "632",
+    "text": "Opportunity is missed by most people because it is dressed in overalls and looks like work.",
+    "author": "Thomas Edison",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "633",
+    "text": "Friends are the family you choose",
+    "author": "Jess C. Scott",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "634",
+    "text": "Money won't create success, the freedom to make it will.",
+    "author": "Nelson Mandela",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "635",
+    "text": "It's not the man who has too little, but the man who craves more that is poor.",
+    "author": "Lucius Annaeus Seneca",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "636",
+    "text": "Wealth flows from energy and ideas.",
+    "author": "William Feather",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "637",
+    "text": "No wealth can buy the requisite leisure, freedom, and independence which are the capital in this profession.",
+    "author": "Henry David Thoreau",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "638",
+    "text": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change",
+    "author": "Charles Darwin",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "639",
+    "text": "Wealth is not about having a lot of money; it’s about having a lot of options.",
+    "author": "Chris Rock",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "640",
+    "text": "Progress is impossible without change, and those who cannot change their minds cannot change anything",
+    "author": "George Bernard Shaw",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "641",
+    "text": "Growth begins when we start to accept our own weakness",
+    "author": "Jean Vanier",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "642",
+    "text": "Wealth is not his that has it, but his that enjoys it.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "643",
+    "text": "The key to growth is the introduction of higher dimensions of consciousness into our awareness",
+    "author": "Lao Tzu",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "644",
+    "text": "There is no growth without change, and there is no change without fear or loss",
+    "author": "Rick Warren",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "645",
+    "text": "I would rather walk with a friend in the dark, than alone in the light",
+    "author": "Helen Keller",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "646",
+    "text": "Do what you love and the money will follow.",
+    "author": "Marsha Sinetar",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "647",
+    "text": "The growth and development of people is the highest calling of leadership",
+    "author": "Harvey S. Firestone",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "648",
+    "text": "Become addicted to constant and never-ending self-improvement",
+    "author": "Anthony J. D'Angelo",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "649",
+    "text": "The greatest gift of life is friendship, and I have received it",
+    "author": "Hubert H. Humphrey",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "650",
+    "text": "Growth means change and change involves risk, stepping from the known to the unknown",
+    "author": "George Shinn",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "651",
+    "text": "There are no strangers here; Only friends you haven’t yet met",
+    "author": "William Butler Yeats",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "652",
+    "text": "A friend is someone who knows all about you and still loves you",
+    "author": "Elbert Hubbard",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "653",
+    "text": "The expert in anything was once a beginner",
+    "author": "Helen Hayes",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "654",
+    "text": "The only way around is through",
+    "author": "Robert Frost",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "655",
+    "text": "One loyal friend is worth ten thousand relatives",
+    "author": "Euripides",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "656",
+    "text": "Friendship consists in forgetting what one gives and remembering what one receives",
+    "author": "Alexander Dumas",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "657",
+    "text": "Empty pockets never held anyone back. Only empty heads and empty hearts can do that.",
+    "author": "Norman Vincent Peale",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "658",
+    "text": "The best mirror is an old friend",
+    "author": "George Herbert",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "659",
+    "text": "True friends are never apart, maybe in distance but never in heart",
+    "author": "Helen Keller",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "660",
+    "text": "Friends are those rare people who ask how we are and then wait to hear the answer",
+    "author": "Ed Cunningham",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "661",
+    "text": "We find comfort among those who agree with us, growth among those who don't",
+    "author": "Frank A. Clark",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "662",
+    "text": "What we fear doing most is usually what we most need to do",
+    "author": "Tim Ferriss",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "663",
+    "text": "Wealth, in even the most improbable cases, manages to convey the aspect of intelligence.",
+    "author": "John Kenneth Galbraith",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "664",
+    "text": "A wise person should have money in their head, but not in their heart.",
+    "author": "Jonathan Swift",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "665",
+    "text": "The real test of friendship is can you literally do nothing with the other person? Can you enjoy those moments of life that are utterly simple?",
+    "author": "Eugene Kennedy",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "666",
+    "text": "Never spend your money before you have earned it.",
+    "author": "Thomas Jefferson",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "667",
+    "text": "Life's challenges are not supposed to paralyze you, they're supposed to help you discover who you are",
+    "author": "Bernice Johnson Reagon",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "668",
+    "text": "Don't go through life, grow through life",
+    "author": "Eric Butterworth",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "669",
+    "text": "Wealth is the product of man’s capacity to think.",
+    "author": "Ayn Rand",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "670",
+    "text": "The strongest principle of growth lies in human choice",
+    "author": "George Eliot",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "671",
+    "text": "The secret to wealth is simple: find a way to do more for others than anyone else does.",
+    "author": "Tony Robbins",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "672",
+    "text": "The way to wealth depends on just two words, industry and frugality.",
+    "author": "Benjamin Franklin",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "673",
+    "text": "Friends are born, not made",
+    "author": "Henry Adams",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "674",
+    "text": "The only way to grow is to embrace challenges and learn from them",
+    "author": "Carol Dweck",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "675",
+    "text": "A true friend is someone who is there for you when they’d rather be anywhere else",
+    "author": "Len Wein",
+    "date": "",
+    "source": "",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "676",
+    "text": "The best way to predict your future is to create it",
+    "author": "Peter Drucker",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "677",
+    "text": "Wealth, after all, is a relative thing, since he that has little and wants less is richer than he that has much and wants more.",
+    "author": "Charles Caleb Colton",
+    "date": "",
+    "source": "",
+    "category": "Bolluk&Bereket",
+    "personal": false
+  },
+  {
+    "id": "678",
+    "text": "En güzel anlar beklentisiz şekilde gerçekleşir. Hiç beklentin yokken çok şey alırsın, çok beklentin olur hiç bir şey akmaz.",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-14",
+    "source": "",
+    "category": "İlham",
+    "personal": true
+  },
+  {
+    "id": "679",
+    "text": "Çoğu insan şikayet ederek hem hastalıklara kapı açar hem de sonrasında o sıkıntılar geldiğinde abartır, büyütür ve çoğaltır.",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-19",
+    "source": "",
+    "category": "Gelişim",
+    "personal": true
+  },
+  {
+    "id": "680",
+    "text": "…Bu bir savaş değil, bu; mutlu ve mutsuz anların zaman zaman birbirinden daha fazla açığa çıkması…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-20",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": true
+  },
+  {
+    "id": "681",
+    "text": "İnsan kendi üzerinde son nefesine kadar çalışması gereken bir varlıktır.",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-19",
+    "source": "",
+    "category": "Gelişim",
+    "personal": true
+  },
+  {
+    "id": "682",
+    "text": "…Atacağın bir adım seni zaten hedefe yaklaştıracak, onun için en uzağa değil; en yakına, tam adımı atacağın yere, önüne bakman yeterli…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-21",
+    "source": "",
+    "category": "Başarı",
+    "personal": true
+  },
+  {
+    "id": "683",
+    "text": "…Aklına, ya da başına ne geliyorsa; ardındaki sebep, gizem veya amaç yaşadığın olaydan daha önemli; çözmeye odaklan…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-22",
+    "source": "",
+    "category": "Gelişim",
+    "personal": true
+  },
+  {
+    "id": "684",
+    "text": "…Kontrol sadece Yaradan’a aittir. O’na bırakmak, O’na güvenmenin göstergesi ve ispatıdır…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-23",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "685",
+    "text": "…Bu içinde yaşadığını düşündüğün savaşı; zihnine kazınmış bütün inanç kalıplarını yok ettiğinde, ancak zafere ulaştırabileceksin…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-25",
+    "source": "",
+    "category": "Cesaret",
+    "personal": true
+  },
+  {
+    "id": "686",
+    "text": "… Şimdi sen zor bir aşamadasın evet, ama inan bu seviyeye gelmeseydin, bu aşama karşına çıkmayacaktı…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-25",
+    "source": "",
+    "category": "Gelişim",
+    "personal": true
+  },
+  {
+    "id": "687",
+    "text": "Bu hayat sadece bir kereliğine bu farkındalıkta olacak, tek şansın var; onu iyi kullan.",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-24",
+    "source": "",
+    "category": "İlham",
+    "personal": true
+  },
+  {
+    "id": "688",
+    "text": "…Onun için sen teslimiyeti ve yaşamayı bilen bir insan olarak kalmalısın, korkmadan ve ölümün karşısında dimdik durarak, \"Ben buradayım!\" diyerek. Korkmadığın her olgu, her olay senin gerçekten korkmadığını gördüğünde bir düşman gibi senden korkmaya başlayacaktır…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-24",
+    "source": "",
+    "category": "Cesaret",
+    "personal": true
+  },
+  {
+    "id": "689",
+    "text": "Dozunu sınırsız sandığın bir hazzın sende yaratacağı tek duygu hayal kırıklığıdır.",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-26",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": true
+  },
+  {
+    "id": "690",
+    "text": "…Dengeli bir hayatın haricinde geçen zaman; sihir, büyü, sınav ve zorlukla geçer…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-27",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": true
+  },
+  {
+    "id": "691",
+    "text": "… Tüm sınavlar aşırılıktan gelir, onun için aşırı söylemlerden ve iddialardan kaçınmak gerekir…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-27",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "692",
+    "text": "…Şimdi ilk defa kendi seçimlerinin ve söylemlerinin farkında; tamamen kendine ait bir hayattasın…",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-28",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "693",
+    "text": "…insana tahammül dediğin şey, onu üzmeden, kırmadan hayır diyebilmende saklı. Bir çöplüğe dönüşmeden hayır de.",
+    "author": "Kutlu Bilge",
+    "date": "2024-11-30",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "694",
+    "text": "\"Herkes bulamaz, ama arayanlar bulanlardır\" gibi bir söz vardır. Doğrusu Yunus’un dediği gibi \"…kendinde ara\" olacak. Çünkü \"herkes bulabilir ancak kendisinde aradığı sürece\"…",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-01",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "695",
+    "text": "…Oysa tümünü bir hulyadan, yalandan veya filmden ibaret olduğunu gördüğünde, dışarıdan bakıp mücadeleni ona göre verebilirsin…",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-02",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "697",
+    "text": "…en kötü anlarında sabrettiklerinin ödülünü haftalar sonra alırsın, “bu onun ödülü müydü?\" diye farkında bile olmadan…",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-06",
+    "source": "",
+    "category": "Cesaret",
+    "personal": true
+  },
+  {
+    "id": "698",
+    "text": "girintiler, çıkıntılar, engeller; hepsi korkudan doğan belirsizliklerdir. Eline sazı alıp aksiyon aldığında hepsi birer çil yavrusu gibi dağılacaktır.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-09",
+    "source": "",
+    "category": "Cesaret",
+    "personal": true
+  },
+  {
+    "id": "699",
+    "text": "Ruhsal açıdan sıkıntı içinde olduğunuz zaman, birinin sizi yargılamadan, sizin için sorumluluk üstlenmeye, size şekil vermeye çalışmadan gerçekten duymasının müthiş bir his olduğuna şahitlik ederim!\"",
+    "author": "Carl Rogers",
+    "date": "",
+    "source": "Yarının İnsanı",
+    "category": "Dostluk",
+    "personal": false
+  },
+  {
+    "id": "700",
+    "text": "\"En büyük ihmalkarlık, kendin için yapman gereken şeyleri ihmal etmendir.”",
+    "author": "Kemal Ehliz",
+    "date": "",
+    "source": "",
+    "category": "",
+    "personal": false
+  },
+  {
+    "id": "701",
+    "text": "Sürü halinde ki insanların, değer yargıları yoktur. Aile ve toplumlarından bir doğruluk paketi alır ve onları asla sorgulamadan tüm hayatlarını, bir çarkın dişlisi olarak yaşarlar.",
+    "author": "Friedrich Nietzsche",
+    "date": "",
+    "source": "",
+    "category": "Cesaret",
+    "personal": false
+  },
+  {
+    "id": "702",
+    "text": "“Fiziksel ağrı çoğu kez bastırılmış duygusal acının bir ifadesidir.”",
+    "author": "Franz Ruppert",
+    "date": "",
+    "source": "Travma, Bağlanma ve Aile Konstelasyonları s.25",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "703",
+    "text": "Evrende sevginin gücünden daha büyük bir güç yoktur. Sevgiyi duyumsadığınızda, yayabileceğiniz en yüksek frekansı yayarsınız.",
+    "author": "Rhonda Byrne",
+    "date": "",
+    "source": "",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "704",
+    "text": "Her kaybettiğin şey bir kayıp değildir.\nBazı şeyler bir özgürlüktür. Bazı şeyler ikinci bir şanstır. Bazı şeyler kılık değiştirmiş bir mucizedir. Bazı şeyler uzun zamandır ihtiyaç duyulan bir kopuştur, bulanık gözlere gelen bir netliktir. Bazı şeyler bir müdahaledir. Bazı şeyler uzun zamandır edilen bir duaya beklenmedik bir cevaptır.\nBazı seyler bir iyileşmedir. Bazı şeyler bir varoluştur. Bazı şeyler sen daha var olmadan çok önce planlanmıştır. Bazı şeyler bir yıkımdır, ama diğerleri bir tür hayati rehberliktir, ihtiyaç duyduğunu bile bilmediğin bir yönlendirmedir..”",
+    "author": "Brianna Wiest",
+    "date": "",
+    "source": "",
+    "category": "Gelişim",
+    "personal": false
+  },
+  {
+    "id": "705",
+    "text": "- Seni seviyorum.\n+ Beni sevdiğine dair kanıt göster?\n- Kanıt inancı öldürür. Eğer kanıt gösterirsem seni sevdiğimi bilirsin. Ben \"seni sevdiğimi bilmeni\" değil, \"seni sevdiğime inanmanı\" istiyorum..\n+ Neden?\n- Çünkü bilmek beyinle, inanmak kalple yapılan iştir.",
+    "author": "",
+    "date": "",
+    "source": "Sweet November",
+    "category": "Sevgi",
+    "personal": false
+  },
+  {
+    "id": "707",
+    "text": "%100 istersen olur, %99 istersen %1 gerçekleşir. Sızıntı asla olmamalı, tam inanç ve tam güven ile ne istiyorsan başarabilirsin.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-11",
+    "source": "",
+    "category": "Başarı",
+    "personal": true
+  },
+  {
+    "id": "708",
+    "text": "An en önemli zamandır. \"Zaman\" kelimesinin içinde \"gelecek veya geçmiş\" geçmez. Sadece zam’an’ vardır. O yüzden ‘an’a odaklan…",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-14",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "709",
+    "text": "Hiç bir gelişim sevgiyi olumsuz etkilemez. Zaten sevmiyorsan geliştikçe farkındalık artar ve bitmesi gereken mevzu cesaretin arttığı için biter.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-17",
+    "source": "",
+    "category": "Sevgi",
+    "personal": true
+  },
+  {
+    "id": "710",
+    "text": "İç’e döndüğünde; dış dünyanın farkındalığı gelir. Çünkü dış dünya bahane olmaktan çıkar ve şikayet azalır. Verilen sınavlar ve gelen idrakler; her şey bunun üzerinedir.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-19",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "711",
+    "text": "Her şey aksın. Tüm zehrini kelimeler ile akıt ve dök.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-20",
+    "source": "",
+    "category": "İlham",
+    "personal": true
+  },
+  {
+    "id": "712",
+    "text": "Değiştiğini kimseye ispat etmek zorunda değilsin…",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-20",
+    "source": "",
+    "category": "Gelişim",
+    "personal": true
+  },
+  {
+    "id": "713",
+    "text": "Mutluluk şurada; istediğin zaman uzanıp al. Zaten öyle yapıyorsun.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-22",
+    "source": "",
+    "category": "Mutluluk",
+    "personal": true
+  },
+  {
+    "id": "714",
+    "text": "Hayat tecrübeleriyle bize yol gösteren bir navigasyon gibidir.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-23",
+    "source": "",
+    "category": "Gelişim",
+    "personal": true
+  },
+  {
+    "id": "715",
+    "text": "Hayatını; tamamen pür bir inanç ile derinden gelen düşüncelerin şekillendirir.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-24",
+    "source": "",
+    "category": "Cesaret",
+    "personal": true
+  },
+  {
+    "id": "716",
+    "text": "Değişime açık olmak, onu kabul etmek; insanlar için en zor şeydir. Oysa sen çabalıyorsun ve değişiyorsun. Ve bu çaban takdir-e şayan.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-24",
+    "source": "",
+    "category": "Gelişim",
+    "personal": true
+  },
+  {
+    "id": "717",
+    "text": "Çaba ile hırs arasındaki nüans farkındalığı sana verilmiş özel bir hediyedir.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-24",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "718",
+    "text": "Harekete geçireceğin her soru ile bir cevap karşına çıkacak. Sırayla ve zamanla açılmasını istediğin tüm kapılar, anahtarının karşılığını vermek üzere açılacaktır.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-25",
+    "source": "",
+    "category": "Gelişim",
+    "personal": true
+  },
+  {
+    "id": "719",
+    "text": "Korku ondan kurtulman için vardır. En kolay yolu üzerine gitmektir.",
+    "author": "Kutlu Bilge",
+    "date": "2024-12-25",
+    "source": "",
+    "category": "Cesaret",
+    "personal": true
+  },
+  {
+    "id": "720",
+    "text": "Oysaki nefsine hakim olman demek, duyguna hakim olan; sürekli bir farkındalık halinde olman demektir.",
+    "author": "Kutlu Bilge",
+    "date": "2025-01-05",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  },
+  {
+    "id": "721",
+    "text": "Düşünmeyi bırak artık ve yap yapacağını. Aksiyon en güzel eylemdir; seni sonuca götürür.",
+    "author": "Kutlu Bilge",
+    "date": "2025-01-05",
+    "source": "",
+    "category": "Bilgelik",
+    "personal": true
+  }
+]
