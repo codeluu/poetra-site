@@ -4,19 +4,43 @@ type Props = {
   title: { pre: string; em: string; post: string };
   lede: string;
   counts: { poems: number; writings: number; media: number };
+  image?: {
+    alt?: string;
+    asset?: {
+      url?: string;
+      metadata?: { dimensions?: { width?: number; height?: number }; lqip?: string };
+    };
+  };
 };
-const { kicker, title, lede, counts } = Astro.props;
+const { kicker, title, lede, counts, image } = Astro.props;
 ---
 
 <section class="hero">
-  <div class="reveal">
-    <p class="kicker">{kicker}</p>
-    <h1>{title.pre}{title.em && <em>{title.em}</em>}{title.post}</h1>
-    <p class="lede">{lede}</p>
-    <div class="hero-stats">
-      <div class="stat"><span class="stat-num">{counts.poems}</span><span class="stat-label">Şiir</span></div>
-      <div class="stat"><span class="stat-num">{counts.writings}</span><span class="stat-label">Yazı</span></div>
-      <div class="stat"><span class="stat-num">{counts.media}</span><span class="stat-label">Medya</span></div>
+  <div class:list={["hero-content", { "hero-content--with-artwork": image?.asset?.url }]}>
+    <div class="hero-copy reveal">
+      <p class="kicker">{kicker}</p>
+      <h1>{title.pre}{title.em && <em>{title.em}</em>}{title.post}</h1>
+      <p class="lede">{lede}</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">{counts.poems}</span><span class="stat-label">Şiir</span></div>
+        <div class="stat"><span class="stat-num">{counts.writings}</span><span class="stat-label">Yazı</span></div>
+        <div class="stat"><span class="stat-num">{counts.media}</span><span class="stat-label">Medya</span></div>
+      </div>
     </div>
+    {image?.asset?.url && (
+      <figure class="hero-art-frame reveal">
+        <div class="hero-art-mat">
+          <img
+            src={`${image.asset.url}?auto=format&fit=max&w=1400`}
+            alt={image.alt || 'Poetra ana sayfa görseli'}
+            width={image.asset.metadata?.dimensions?.width || 1200}
+            height={image.asset.metadata?.dimensions?.height || 1500}
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
+      </figure>
+    )}
   </div>
 </section>

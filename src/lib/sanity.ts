@@ -89,6 +89,14 @@ export type HomePageSettings = {
   heroTitle?: string;
   heroTitleEmphasis?: string;
   heroLede?: string;
+  heroImage?: {
+    alt?: string;
+    asset?: {
+      _id?: string;
+      url?: string;
+      metadata?: { dimensions?: { width?: number; height?: number }; lqip?: string };
+    };
+  };
   sectionOrder?: Array<'hero' | 'dailyQuote' | 'works' | 'archive'>;
   dailyQuotes?: DailyQuoteItem[];
   featured?: ContentSummary[];

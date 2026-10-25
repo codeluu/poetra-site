@@ -62,10 +62,22 @@ export const homePage = defineType({
     }),
     defineField({
       name: 'heroLede',
-      title: 'Hero Lede / Giriş Cümlesi',
+      title: 'Ana Sayfa Tanıtım Metni / Hero Lede',
+      description: 'Ana sayfadaki “Şiirler, denemeler, kitaplar ve Muntra Versio’nun müziği...” cümlesini buradan değiştirin.',
       type: 'text',
       rows: 3,
       group: 'hero',
+    }),
+    defineField({
+      name: 'heroImage',
+      title: 'Ana Sayfa Görseli / Hero Artwork',
+      description: 'Ana sayfa girişinin yanında sanat çerçevesi içinde görünür. Görselin tamamı korunur; odak noktasını ve alternatif metni burada belirleyin.',
+      type: 'image',
+      group: 'hero',
+      options: { hotspot: true },
+      fields: [
+        defineField({ name: 'alt', title: 'Alternatif metin / Alt text', type: 'string' }),
+      ],
     }),
     defineField({
       name: 'dailyQuotes',
