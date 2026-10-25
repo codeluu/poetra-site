@@ -38,6 +38,8 @@ export type ContentSummary = {
   excerpt?: string;
   heroImage?: {
     alt?: string;
+    crop?: { top: number; bottom: number; left: number; right: number };
+    hotspot?: { x: number; y: number; width: number; height: number };
     asset?: { _id?: string; _ref?: string; url?: string; metadata?: { dimensions?: { width?: number; height?: number }; lqip?: string } };
   };
   bodyImage?: ContentDocument['heroImage'];

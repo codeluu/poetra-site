@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { formatDate, formatLabel, languageLabel } from '../../lib/format';
 import { sanityClient, type ContentDocument } from '../../lib/sanity';
+import { writingThumbnailUrl } from '../../lib/sanityImage';
 
 const writings = await sanityClient.fetch<ContentDocument[]>(`
   *[
@@ -15,8 +16,8 @@ const writings = await sanityClient.fetch<ContentDocument[]>(`
     language,
     publishedAt,
     format,
-    heroImage { alt, asset->{_id, url, metadata{dimensions, lqip}} },
-    "bodyImage": body[_type == "image"][0]{alt, caption, "asset": asset->{_id, url, metadata{dimensions, lqip}}},
+    heroImage { alt, crop, hotspot, asset->{_id, _ref, url, metadata{dimensions, lqip}} },
+    "bodyImage": body[_type == "image"][0]{alt, caption, crop, hotspot, "asset": asset->{_id, _ref, url, metadata{dimensions, lqip}}},
     "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...220]),
     seo
   }
@@ -46,10 +47,10 @@ const writings = await sanityClient.fetch<ContentDocument[]>(`
                   {(writing.heroImage?.asset?.url || writing.bodyImage?.asset?.url) && (
                     <img
                       class="entry-image"
-                      src={`${(writing.heroImage?.asset?.url || writing.bodyImage?.asset?.url)!}?auto=format&fit=max&w=1200`}
+                      src={writingThumbnailUrl(writing.heroImage?.asset?.url ? writing.heroImage : writing.bodyImage)}
                       alt={writing.heroImage?.alt || writing.bodyImage?.alt || `${writing.title} — görsel`}
-                      width={writing.heroImage?.asset?.metadata?.dimensions?.width || writing.bodyImage?.asset?.metadata?.dimensions?.width}
-                      height={writing.heroImage?.asset?.metadata?.dimensions?.height || writing.bodyImage?.asset?.metadata?.dimensions?.height}
+                      width={1200}
+                      height={440}
                       loading="lazy"
                       decoding="async"
                     />

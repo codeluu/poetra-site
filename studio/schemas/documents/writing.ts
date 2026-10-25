@@ -93,7 +93,7 @@ export const writing = defineType({
     defineField({
       name: 'heroImage',
       title: 'Hero Image / Kapak Görseli',
-      description: 'Yazılar listesinde ve yazının üst kısmında gösterilir. Görsel için erişilebilir bir alt metin girin.',
+      description: 'Yazılar listesindeki önizlemenin bölümünü görseli kırparak ve odak noktasını seçerek belirleyin. Yazının içinde görselin tamamı gösterilir.',
       type: 'image',
       group: 'media',
       options: { hotspot: true },
