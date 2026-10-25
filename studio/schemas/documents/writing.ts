@@ -72,7 +72,8 @@ export const writing = defineType({
     defineField({
       name: 'body',
       title: 'Body / İçerik',
-      type: 'blockContent',
+      description: 'Metnin arasına şiir eklemek için ekle (+) menüsünden “Şiir / Poem” seçin. Şiir bloğunu istediğiniz yere taşıyabilirsiniz.',
+      type: 'writingBody',
       group: 'content',
       validation: Rule => Rule.required(),
     }),

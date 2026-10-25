@@ -17,7 +17,12 @@ export async function getStaticPaths() {
       language,
       publishedAt,
       format,
-      body,
+      body[]{
+        ...,
+        _type == "poemEmbed" && source == "reference" => {
+          "poem": poem->{_id, _type, title, slug, originalLanguage, body}
+        }
+      },
       seo,
       "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...220])
     }

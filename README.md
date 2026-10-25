@@ -1,5 +1,17 @@
 # Astro Starter Kit: Minimal
 
+## Yazı içinde şiir
+
+Studio → Yazılar → İçerik alanındaki ekle (+) menüsünden **Şiir / Poem**
+seçin. **Arşivden şiir seç** mevcut şiirin tamamını gösterir; şiir kendi
+arşivinde kalır. Yeni bir şiiri seçim alanından oluşturduğunuzda şiir kaydını
+da yayımlayın. Yayımlanmamış şiirler sitede gösterilmez.
+
+**Şiir metni ekle** seçeneği yalnızca bu yazıya ait şiir veya alıntı içindir.
+İsteğe bağlı başlık, şair ve dil alanları vardır. Satır sonları, girintiler
+ve kıtalar arasındaki boş satırlar korunur. Blok metnin arasına taşınabilir.
+Site statik olduğundan yayımlanan değişiklikler yeni site derlemesiyle görünür.
+
 ```sh
 npm create astro@latest -- --template minimal
 ```
