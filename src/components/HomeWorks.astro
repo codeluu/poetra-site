@@ -1,0 +1,27 @@
+---
+import { getLinkAttributes } from '../lib/link';
+import type { HomeWorkCard } from '../lib/sanity';
+
+type Props = { heading: string; items: HomeWorkCard[] };
+const { heading, items } = Astro.props;
+---
+
+<section class="section">
+  <div class="shelf-head reveal">
+    <h2 class="kicker">{heading}</h2>
+    <a class="media-link" href="/media">Tüm medya</a>
+  </div>
+  <div class="shelf-grid">
+    {items.map((work) => work.url ? (
+      <a class="work-card reveal" href={work.url} {...getLinkAttributes(work.openInNewTab)}>
+        <div class:list={['work-cover', { 'work-cover-album': work.kind === 'Müzik' }]}><span class="work-cover-title">{work.title}</span></div>
+        <div class="work-kunye">{work.kind && <span>{work.kind}</span>}{work.note && <span>{work.note}</span>}</div>
+      </a>
+    ) : (
+      <article class="work-card reveal">
+        <div class:list={['work-cover', { 'work-cover-album': work.kind === 'Müzik' }]}><span class="work-cover-title">{work.title}</span></div>
+        <div class="work-kunye">{work.kind && <span>{work.kind}</span>}{work.note && <span>{work.note}</span>}</div>
+      </article>
+    ))}
+  </div>
+</section>

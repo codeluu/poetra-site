@@ -1,0 +1,30 @@
+---
+import { formatDate } from '../lib/format';
+import type { ContentSummary } from '../lib/sanity';
+
+type Props = { items: ContentSummary[] };
+const { items } = Astro.props;
+const typeLabels: Record<string, string> = { poetry: 'Şiir', writing: 'Yazı', mediaEntry: 'Medya' };
+function hrefFor(item: ContentSummary) {
+  if (item._type === 'poetry') return `/poetry/${item.originalLanguage}/${item.slug.current}`;
+  if (item._type === 'writing') return `/writings/${item.slug.current}`;
+  if (item._type === 'mediaEntry') return '/media';
+  return '/';
+}
+---
+
+<section class="section">
+  <div class="archive-head reveal">
+    <h2 class="kicker">Arşivden</h2>
+    <a class="media-link" href="/poetry">Tüm şiirler</a>
+  </div>
+  <ol class="archive-list reveal">
+    {items.map((item) => (
+      <li class="archive-row"><a href={hrefFor(item)}>
+        <span class="archive-type">{typeLabels[item._type] ?? item._type}</span>
+        <span class="archive-title">{item.title}</span>
+        <span class="archive-date">{formatDate(item.publishedAt)}</span>
+      </a></li>
+    ))}
+  </ol>
+</section>

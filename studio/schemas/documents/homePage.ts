@@ -13,12 +13,31 @@ export const homePage = defineType({
   type: 'document',
   groups: [
     { name: 'hero', title: 'Hero / Giriş', default: true },
+    { name: 'layout', title: 'Layout / Yerleşim' },
     { name: 'daily', title: 'Daily Quote / Günün Dizesi' },
     { name: 'archive', title: 'Archive / Arşiv' },
     { name: 'works', title: 'Works / Kitap & Müzik' },
     { name: 'seo', title: 'SEO' },
   ],
   fields: [
+    defineField({
+      name: 'sectionOrder',
+      title: 'Homepage Section Order / Ana Sayfa Bölüm Sırası',
+      description: 'Bölümleri sürükleyip bırakarak sıralayın. Ana sayfada ilk sırada en üstte görünür. Bölüm başlıklarını değiştirmez.',
+      type: 'array',
+      group: 'layout',
+      initialValue: ['hero', 'dailyQuote', 'works', 'archive'],
+      of: [defineArrayMember({
+        type: 'string',
+        options: { list: [
+          { title: 'Giriş / Hero', value: 'hero' },
+          { title: 'Günün Dizesi', value: 'dailyQuote' },
+          { title: 'Kitaplar · Müzik', value: 'works' },
+          { title: 'Arşivden', value: 'archive' },
+        ] },
+      })],
+      validation: Rule => Rule.required().length(4).unique(),
+    }),
     defineField({
       name: 'heroKicker',
       title: 'Hero Kicker / Üst Etiket',

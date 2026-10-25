@@ -11,6 +11,7 @@ export function portableTextToHtml(blocks?: PortableTextBlock[]) {
     components: {
       types: {
         poemEmbed: ({ value }) => poemEmbedToHtml(value as PoemEmbed),
+        image: ({ value }) => imageToHtml(value as InlineImage),
         youtubeEmbed: ({ value }) =>
           youtubeEmbedToHtml(value as YouTubeEmbedBlock),
       },
@@ -24,6 +25,20 @@ export function portableTextToHtml(blocks?: PortableTextBlock[]) {
       },
     },
   });
+}
+
+type InlineImage = {
+  alt?: string;
+  caption?: string;
+  assetUrl?: string;
+};
+
+function imageToHtml(value: InlineImage): string {
+  if (!value.assetUrl?.startsWith('https://cdn.sanity.io/images/')) return '';
+  const src = escapeHtmlAttribute(`${value.assetUrl}?auto=format&fit=max&w=1200`);
+  const alt = escapeHtmlAttribute(value.alt?.trim() ?? '');
+  const caption = value.caption?.trim();
+  return `<figure class="portable-image"><img src="${src}" alt="${alt}" loading="lazy" decoding="async" />${caption ? `<figcaption>${escapeHtmlAttribute(caption)}</figcaption>` : ''}</figure>`;
 }
 
 type PoemEmbed = {

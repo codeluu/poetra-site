@@ -16,12 +16,15 @@ export async function getStaticPaths() {
       slug,
       language,
       publishedAt,
+      "bodyImage": body[_type == "image"][0]{alt},
+      heroImage { alt, asset->{_id, url, metadata{dimensions, lqip}} },
       format,
       body[]{
         ...,
         _type == "poemEmbed" && source == "reference" => {
           "poem": poem->{_id, _type, title, slug, originalLanguage, body}
-        }
+        },
+        _type == "image" => { ..., "assetUrl": asset->url }
       },
       seo,
       "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...220])
@@ -35,7 +38,13 @@ export async function getStaticPaths() {
 }
 
 const { writing } = Astro.props;
-const bodyHtml = portableTextToHtml(writing.body);
+const bodyBlocks = writing.body?.filter(block =>
+  !(block._type === 'image' && block.asset &&
+    typeof block.asset === 'object' &&
+    '_ref' in block.asset &&
+    block.asset._ref === writing.heroImage?.asset?._id),
+);
+const bodyHtml = portableTextToHtml(bodyBlocks);
 const contentLang = writing.language === 'en' ? 'en' : 'tr';
 const description =
   writing.seo?.description ||
@@ -52,6 +61,17 @@ const description =
       {writing.publishedAt && <span>{formatDate(writing.publishedAt)}</span>}
     </div>
     <h1>{writing.title}</h1>
+    {writing.heroImage?.asset?.url && (
+      <img
+        class="article-image"
+        src={`${writing.heroImage.asset.url}?auto=format&fit=max&w=1600`}
+        alt={writing.heroImage.alt || writing.bodyImage?.alt || `${writing.title} — görsel`}
+        width={writing.heroImage.asset.metadata?.dimensions?.width}
+        height={writing.heroImage.asset.metadata?.dimensions?.height}
+        fetchpriority="high"
+        decoding="async"
+      />
+    )}
     {
       bodyHtml ? (
         <div class="portable" lang={contentLang} set:html={bodyHtml} />

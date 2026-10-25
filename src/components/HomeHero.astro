@@ -1,0 +1,22 @@
+---
+type Props = {
+  kicker: string;
+  title: { pre: string; em: string; post: string };
+  lede: string;
+  counts: { poems: number; writings: number; media: number };
+};
+const { kicker, title, lede, counts } = Astro.props;
+---
+
+<section class="hero">
+  <div class="reveal">
+    <p class="kicker">{kicker}</p>
+    <h1>{title.pre}{title.em && <em>{title.em}</em>}{title.post}</h1>
+    <p class="lede">{lede}</p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">{counts.poems}</span><span class="stat-label">Şiir</span></div>
+      <div class="stat"><span class="stat-num">{counts.writings}</span><span class="stat-label">Yazı</span></div>
+      <div class="stat"><span class="stat-num">{counts.media}</span><span class="stat-label">Medya</span></div>
+    </div>
+  </div>
+</section>

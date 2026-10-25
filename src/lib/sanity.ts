@@ -36,6 +36,11 @@ export type ContentSummary = {
   soundCloudUrl?: string;
   soundCloudOpenInNewTab?: boolean;
   excerpt?: string;
+  heroImage?: {
+    alt?: string;
+    asset?: { _id?: string; _ref?: string; url?: string; metadata?: { dimensions?: { width?: number; height?: number }; lqip?: string } };
+  };
+  bodyImage?: ContentDocument['heroImage'];
   seo?: {
     title?: string;
     description?: string;
@@ -82,6 +87,7 @@ export type HomePageSettings = {
   heroTitle?: string;
   heroTitleEmphasis?: string;
   heroLede?: string;
+  sectionOrder?: Array<'hero' | 'dailyQuote' | 'works' | 'archive'>;
   dailyQuotes?: DailyQuoteItem[];
   featured?: ContentSummary[];
   shelfHeading?: string;

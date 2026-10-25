@@ -15,6 +15,8 @@ const writings = await sanityClient.fetch<ContentDocument[]>(`
     language,
     publishedAt,
     format,
+    heroImage { alt, asset->{_id, url, metadata{dimensions, lqip}} },
+    "bodyImage": body[_type == "image"][0]{alt, caption, "asset": asset->{_id, url, metadata{dimensions, lqip}}},
     "excerpt": coalesce(seo.description, array::join(body[].children[].text, " ")[0...220]),
     seo
   }
@@ -41,6 +43,17 @@ const writings = await sanityClient.fetch<ContentDocument[]>(`
                     <span>{formatDate(writing.publishedAt)}</span>
                   </div>
                   <h2 class="entry-title">{writing.title}</h2>
+                  {(writing.heroImage?.asset?.url || writing.bodyImage?.asset?.url) && (
+                    <img
+                      class="entry-image"
+                      src={`${(writing.heroImage?.asset?.url || writing.bodyImage?.asset?.url)!}?auto=format&fit=max&w=1200`}
+                      alt={writing.heroImage?.alt || writing.bodyImage?.alt || `${writing.title} — görsel`}
+                      width={writing.heroImage?.asset?.metadata?.dimensions?.width || writing.bodyImage?.asset?.metadata?.dimensions?.width}
+                      height={writing.heroImage?.asset?.metadata?.dimensions?.height || writing.bodyImage?.asset?.metadata?.dimensions?.height}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  )}
                   {writing.excerpt && <p class="entry-excerpt">{writing.excerpt}</p>}
                 </article>
               </a>
